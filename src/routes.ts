@@ -1,4 +1,5 @@
 // pages
+import CreateProject from "./components/create_project/CreateProject";
 import Home from "./components/home/home";
 import { FC } from "react";
 
@@ -19,5 +20,12 @@ export const routes: Array<Route> = [
     path: "/",
     enabled: true,
     component: Home,
-  }
+  },
+  {
+    key: "createproject-route",
+    title: "Create Project",
+    path: "/createproject",
+    enabled: true,
+    component: CreateProject,
+  },
 ];

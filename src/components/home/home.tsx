@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
 import CustomButton from "../button/Button";
 import ProjectCard from "../project_card/ProjectCard";
@@ -17,6 +18,11 @@ type HomeProps = {
 
 export default function Home() {
   // export default function Home({ data }: HomeProps) {
+  const navigate = useNavigate();
+
+  const handleAddProjectClick = () => {
+    navigate("/createproject");
+  };
   return (
     <>
       <Grid
@@ -29,7 +35,7 @@ export default function Home() {
           <Typography variant="h5">Projects:</Typography>
         </Grid>
         <Grid item>
-          <CustomButton text="Add Project" />
+          <CustomButton text="Add Project" onClick={handleAddProjectClick} />
         </Grid>
       </Grid>
 

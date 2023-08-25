@@ -2,8 +2,8 @@ import React from "react";
 import { CssBaseline, ThemeProvider, Container, Grid } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { routes as appRoutes } from "./routes";
 import Layout from "./components/layout/Layout";
+import { routes as appRoutes } from "./routes";
 
 import "./App.css";
 
@@ -37,7 +37,7 @@ function App() {
           <Router>
             <Layout>
               <Routes>
-                {appRoutes.map((route: any) => (
+                {appRoutes.map((route) => (
                   <Route
                     key={route.key}
                     path={route.path}
