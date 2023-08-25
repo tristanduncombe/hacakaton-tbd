@@ -1,0 +1,8 @@
+.MuiCard-root {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.MuiTypography-root {
+  font-family: "Apple Color Emoji", sans-serif;
+}
