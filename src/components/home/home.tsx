@@ -43,6 +43,25 @@ export default function Home() {
         <Grid item xs={12} sm={6} md={4}>
           <ProjectCard />
         </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <ProjectCard />
+        </Grid>
       </Grid>
 
       {/* <Grid container spacing={2} className="home_grid">
