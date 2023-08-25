@@ -1,9 +1,11 @@
 import React from "react";
-import { CssBaseline, ThemeProvider } from "@mui/material";
+import { CssBaseline, ThemeProvider, Container, Grid } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { routes as appRoutes } from "./routes";
 import Layout from "./components/layout/Layout";
+
+import "./App.css";
 
 function App() {
   // define theme
@@ -29,20 +31,24 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
-        <Layout>
-          <Routes>
-            {appRoutes.map((route: any) => (
-              <Route
-                key={route.key}
-                path={route.path}
-                element={<route.component />}
-              />
-            ))}
-          </Routes>
-        </Layout>
-      </Router>
+      <Container className="top_60">
+        <Grid container spacing={3}>
+          <CssBaseline />
+          <Router>
+            <Layout>
+              <Routes>
+                {appRoutes.map((route: any) => (
+                  <Route
+                    key={route.key}
+                    path={route.path}
+                    element={<route.component />}
+                  />
+                ))}
+              </Routes>
+            </Layout>
+          </Router>
+        </Grid>
+      </Container>
     </ThemeProvider>
   );
 }
