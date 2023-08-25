@@ -1,5 +1,5 @@
 // pages
-import Home from "./components/home/Home"
+import Home from "./components/home/home";
 import { FC } from "react";
 
 // interface
