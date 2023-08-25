@@ -1,19 +1,19 @@
 // pages
 import CreateProject from "./components/create_project/CreateProject";
 import Home from "./components/home/home";
+import { HomeProps } from "./components/home/home";
 import { FC } from "react";
 
-// interface
-interface Route {
+export interface Route<T = {}> {
   key: string;
   title: string;
   path: string;
   enabled: boolean;
-  component: FC<{}>;
+  component: FC<T>;
   hideFromHeader?: boolean;
 }
 
-export const routes: Array<Route> = [
+export const routes: Array<Route<HomeProps>> = [
   {
     key: "home-route",
     title: "Home",

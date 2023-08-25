@@ -29,6 +29,34 @@ function App() {
     },
   });
 
+  // mock data
+  const data = [
+    {
+      id: "1",
+      name: "Tayla Ward",
+      updatedDate: "25th Aug 2023",
+      completion: "Completed",
+    },
+    {
+      id: "2",
+      name: "Tristan",
+      updatedDate: "25th Aug 2023",
+      completion: "Incomplete",
+    },
+    {
+      id: "3",
+      name: "Luke",
+      updatedDate: "25th Aug 2023",
+      completion: "Incomplete",
+    },
+    {
+      id: "4",
+      name: "JaeWon",
+      updatedDate: "25th Aug 2023",
+      completion: "Incomplete",
+    },
+  ];
+
   return (
     <ThemeProvider theme={theme}>
       <Container className="top_60">
@@ -36,15 +64,17 @@ function App() {
           <CssBaseline />
           <Router>
             <Layout>
-              <Routes>
-                {appRoutes.map((route) => (
-                  <Route
-                    key={route.key}
-                    path={route.path}
-                    element={<route.component />}
-                  />
-                ))}
-              </Routes>
+              <div className="main-content .container_shade">
+                <Routes>
+                  {appRoutes.map((route) => (
+                    <Route
+                      key={route.key}
+                      path={route.path}
+                      element={<route.component data={data} />}
+                    />
+                  ))}
+                </Routes>
+              </div>
             </Layout>
           </Router>
         </Grid>
