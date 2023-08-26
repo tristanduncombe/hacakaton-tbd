@@ -1,20 +1,31 @@
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
 import * as url from "url";
+import {
+  setupTitlebar,
+  attachTitlebarToWindow,
+} from "custom-electron-titlebar/main";
 
 let mainWindow: Electron.BrowserWindow | null;
+setupTitlebar();
 
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1100,
     height: 700,
     backgroundColor: "#f2f2f2",
+    autoHideMenuBar: true,
+    titleBarStyle: "hidden",
+    titleBarOverlay: true,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
       devTools: process.env.NODE_ENV !== "production",
+      preload: "./preload.ts",
     },
   });
+
+  attachTitlebarToWindow(mainWindow);
 
   if (process.env.NODE_ENV === "development") {
     mainWindow.loadURL("http://localhost:4000");

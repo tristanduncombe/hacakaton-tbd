@@ -1,8 +1,8 @@
 {
-  "name": "electron-typescript-react-mui",
+  "name": "polocrosse-draw-generator",
   "version": "1.0.0",
   "private": true,
-  "description": "Lightweight, modern boilerplate built with electron, typescript, and react.",
+  "description": "Draw Generator for Polocrosse built by the four horsemen",
   "main": "./dist/main.js",
   "scripts": {
     "dev": "npm-run-all -p dev:react electron:serve",
@@ -25,6 +25,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.6",
     "@mui/material": "^5.14.6",
+    "custom-electron-titlebar": "^4.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
@@ -41,7 +42,7 @@
     "@typescript-eslint/parser": "^5.30.7",
     "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
-    "electron": "^19.0.8",
+    "electron": "^26.1.0",
     "electron-builder": "^23.3.2",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
