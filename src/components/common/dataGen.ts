@@ -1,5 +1,5 @@
 import { any } from 'prop-types';
-import teamsJson from '../common/teams.json'
+import teamsJson from '../../test/teams.json'
 
 
 /*
