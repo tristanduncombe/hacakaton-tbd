@@ -60,22 +60,3 @@ app.on("activate", () => {
     createWindow();
   }
 });
-
-app.setUserTasks([
-  {
-    program: process.execPath,
-    arguments: "--new-project",
-    iconPath: process.execPath,
-    iconIndex: 0,
-    title: "New Project",
-    description: "Create a new project",
-  },
-  {
-    program: process.execPath,
-    arguments: "--latest-project",
-    iconPath: process.execPath,
-    iconIndex: 0,
-    title: "Latest Project",
-    description: "Open latest project",
-  },
-]);
