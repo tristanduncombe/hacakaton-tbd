@@ -78,6 +78,7 @@ import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
 import CustomButton from "../button/Button";
 import ProjectCard from "../project_card/ProjectCard";
+import AddIcon from "@mui/icons-material/Add";
 
 export type HomeProps = {
   data: ProjectData[];
@@ -104,15 +105,22 @@ export default function Home({ data }: HomeProps) {
         container
         justifyContent="space-between"
         alignItems="center"
-        className="home_title"
+        paddingBottom={2}
       >
         <Grid item>
           <Typography variant="h5">Projects:</Typography>
         </Grid>
         <Grid item>
-          <CustomButton text="Add Project" onClick={handleAddProjectClick} />
+          <div className="btn_container">
+            <CustomButton
+              text="Add Project"
+              icon={<AddIcon />}
+              onClick={handleAddProjectClick}
+            />
+          </div>
         </Grid>
       </Grid>
+
       <Grid container spacing={2} className="home_grid">
         {data.length === 0 ? (
           <Grid item xs={12}>
