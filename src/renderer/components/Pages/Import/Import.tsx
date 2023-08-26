@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import CustomButton from "../../Common/button/Button";
 import { Alert, AlertTitle } from "@mui/material";
 import { read, utils } from "xlsx";
+import { formatRawData } from "./formatRaw";
 
 export default function Import() {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -23,7 +24,6 @@ export default function Import() {
 
     if (validExtensions.includes(fileExtension)) {
       // If the file is an excel file
-      console.log("Got through the first one");
       const reader = new FileReader();
       reader.onload = (e: any) => {
         const data = e.target.result;
@@ -33,26 +33,17 @@ export default function Import() {
         const playerSheet = workbook.SheetNames[1]; 
         const umpireSheet = workbook.SheetNames[4]; 
         excelPages.push(teamSheet, playerSheet, umpireSheet);
-        let jsonObjects: {[page: string]: any} = {};
+        let rawJsonObjects: {[page: string]: any} = {};
 
         excelPages.forEach(page => {
           const worksheet = workbook.Sheets[page]; 
           const json = utils.sheet_to_json(worksheet); 
-          const fileData = JSON.stringify(json); 
-          jsonObjects[page] = fileData;
-        // const sheetName = workbook.SheetNames[0];
-        // // const worksheet = workbook.Sheets[sheetName];
-        // // const json = utils.sheet_to_json(worksheet);
-        // // console.log(json); // This is the JSON object
-        // // const fileData = JSON.stringify(json);
-        // const blob = new Blob([fileData], { type: "text/plain" });
-        // const url = URL.createObjectURL(blob);
-        // const link = document.createElement("a");
-        // link.download = "imported_data.json";
-        // link.href = url;
-        // link.click();
+          
+          rawJsonObjects[page] = json;
+       
         });
-        console.log(jsonObjects)
+        let formattedData = formatRawData(rawJsonObjects);
+        console.log(formattedData);
       };
       reader.readAsArrayBuffer(file);
       
