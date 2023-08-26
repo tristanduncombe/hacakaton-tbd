@@ -17,6 +17,10 @@ type ProjectData = {
 };
 
 export default function Home({ data }: HomeProps) {
+  // const styling = {
+  //   topPadding = "16px",
+  // };
+
   const handleDeleteProject = (id: string) => {};
   const navigate = useNavigate();
 
