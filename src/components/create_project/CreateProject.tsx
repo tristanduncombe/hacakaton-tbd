@@ -1,10 +1,7 @@
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
-import { Fab, TextField } from "@mui/material";
-import NavigationIcon from "@mui/icons-material/Navigation";
+import { TextField, Typography } from "@mui/material";
 import CustomButton from "../button/Button";
 import { useNavigate } from "react-router-dom";
 
@@ -49,37 +46,55 @@ export default function CreateProject() {
   function setValue(newValue: any): void {
     throw new Error("Function not implemented.");
   }
+
+  // const inputStyling = {
+  //   size
+  // };
+
   console.log(rows);
   return (
     <React.Fragment>
-      <div> Australian Polo X Association </div>
-      <h1> New Project </h1>
+      <Grid
+        container
+        justifyContent="space-between"
+        alignItems="center"
+        paddingBottom={2}
+      >
+        <Grid item>
+          <Typography variant="h1"> New Project </Typography>
+        </Grid>
+      </Grid>
       <Box sx={{ width: "80%" }}>
-        <Grid container rowSpacing={1} sx={{ backgroundColor: "white" }}>
+        <Grid
+          container
+          alignItems={"center"}
+          rowSpacing={1}
+          sx={{ backgroundColor: "white" }}
+        >
           <Grid item xs={6} sx={{ backgroundColor: "white" }}>
             <p>Competition Name</p>
           </Grid>
           <Grid item xs={6} sx={{ backgroundColor: "white" }}>
             <TextField
               id="outlined-basic"
-              helperText="Please enter your name"
+              helperText="Please enter your project name"
               variant="outlined"
               color="secondary"
               focused
             />
           </Grid>
 
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
+          <Grid item xs={6}>
             <p>Date of Event</p>
           </Grid>
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
+          <Grid item xs={6}>
             <input type="date" onChange={(e: any) => setDate(e.target.value)} />
           </Grid>
 
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
+          <Grid item xs={6}>
             <p>Field Information</p>
           </Grid>
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
+          <Grid item xs={6}>
             <table>
               <thead>
                 <tr>
@@ -95,6 +110,7 @@ export default function CreateProject() {
                         type="text"
                         name="rating"
                         value={row.rating}
+                        // style={inputStyling}
                         onChange={(event) => handleChange(event, index)}
                       />
                     </td>
@@ -121,22 +137,10 @@ export default function CreateProject() {
         </Grid>
       </Box>
 
-
-      <div style={{display:'flex', justifyContent:'space-between'}}>
-        <CustomButton text="Go Back" onClick={prevPage} />
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <CustomButton text="Go Back" onClick={prevPage} negative />
         <CustomButton text="Continue" onClick={nextPage} />
       </div>
-
-  
-
-
     </React.Fragment>
   );
-}
-function useReactTable(arg0: any, addRow: any, arg2: () => void) {
-  throw new Error("Function not implemented.");
-}
-
-function getCoreRowModel() {
-  throw new Error("Function not implemented.");
 }
