@@ -1,5 +1,5 @@
 import React from "react";
-import { CssBaseline, ThemeProvider, Container, Grid } from "@mui/material";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout/Layout";
@@ -19,8 +19,8 @@ function App() {
     },
     palette: {
       primary: {
-        light: "#63b8ff",
-        main: "#0989e3",
+        light: "#e3f2fd",
+        main: "#f3e5f5",
         dark: "#005db0",
         contrastText: "#000",
       },
@@ -63,26 +63,22 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container className="top_60">
-        <Grid container spacing={3}>
-          <CssBaseline />
-          <Router>
-            <Layout>
-              <div className="main-content .container_shade">
-                <Routes>
-                  {appRoutes.map((route) => (
-                    <Route
-                      key={route.key}
-                      path={route.path}
-                      element={<route.component data={data} />}
-                    />
-                  ))}
-                </Routes>
-              </div>
-            </Layout>
-          </Router>
-        </Grid>
-      </Container>
+      <CssBaseline />
+      <Router>
+        <Layout>
+          <div className="main-content .container_shade">
+            <Routes>
+              {appRoutes.map((route) => (
+                <Route
+                  key={route.key}
+                  path={route.path}
+                  element={<route.component data={data} />}
+                />
+              ))}
+            </Routes>
+          </div>
+        </Layout>
+      </Router>
     </ThemeProvider>
   );
 }
