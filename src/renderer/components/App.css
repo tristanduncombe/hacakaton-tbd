@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Arbutus Slab";
-  src: url("./assets/fonts/arbutus-slab/arbutusslab-regular.ttf")
+  src: url("../../../static/fonts/arbutus-slab/arbutusslab-regular.ttf")
     format("truetype");
 }
 
