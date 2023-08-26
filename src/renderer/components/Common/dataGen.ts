@@ -1,5 +1,5 @@
 import { any } from 'prop-types';
-import teamsJson from '../../test/teams.json'
+import teamsJson from './test/teams.json'
 
 
 /*
@@ -10,7 +10,7 @@ The file passed needs to only contain the teams of one competition category and 
 The file must already have the teams orders via points
 */
 export function gradeGen() {
-    let teams = teamsJson;
+    const teams = teamsJson;
 
     // Check for invalid ammount of teams. I.e 0 or 1 teams
     if (teams['teams'].length <= 1) {
@@ -25,7 +25,6 @@ export function gradeGen() {
     // Requirements - have at least 3 teams in a grade - ideallaly 4 teams
     // Group the closest points together
     let gradings = groupTeams(teams);
-    console.log(gradings)
     
     // Now need to even the grades out - the last grade could have 1 or 2 teams in it.
     gradings = evenGradesOut(gradings);

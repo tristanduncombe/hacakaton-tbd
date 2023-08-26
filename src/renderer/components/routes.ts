@@ -3,7 +3,7 @@ import CreateProject from "./Pages/create_project/CreateProject";
 import Home from "./Pages/home/home";
 import { HomeProps } from "./Pages/home/home";
 import { FC } from "react";
-import Import from "./components/import/import";
+import Import from "./Common/import/import";
 
 export interface Route<T = Record<string, unknown>> {
   key: string;

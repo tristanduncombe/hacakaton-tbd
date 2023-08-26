@@ -1,9 +1,9 @@
 import React from "react";
 
-import { gradeGen } from "../common/dataGen";
+import { gradeGen } from "../../Common/dataGen";
 import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
-import CustomButton from "../button/Button";
+import CustomButton from "../../Common/button/Button";
 import ProjectCard from "../project_card/ProjectCard";
 import AddIcon from "@mui/icons-material/Add";
 

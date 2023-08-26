@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import CustomButton from "../button/Button";
-import { Alert, AlertTitle, Button } from "@mui/material";
+import { Alert, AlertTitle } from "@mui/material";
 import PapaParse from "papaparse";
 import { read, utils} from "xlsx";
 import { useState } from "react";
@@ -15,8 +15,8 @@ export default function Import() {
         const file = event.target.files[0];
         
         const fileName = file.name
-        let fileExtension = fileName.split(".").pop(); 
-        let validExtensions = ["xls", "xlsx", "xlsm"]; 
+        const fileExtension = fileName.split(".").pop(); 
+        const validExtensions = ["xls", "xlsx", "xlsm"]; 
 
         if (validExtensions.includes(fileExtension)) { // If the file is an excel file
             console.log("Got through the first one")

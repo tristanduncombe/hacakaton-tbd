@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
 import { TextField, Typography } from "@mui/material";
-import CustomButton from "../button/Button";
+import CustomButton from "../../Common/button/Button";
 import { useNavigate } from "react-router-dom";
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -51,7 +51,6 @@ export default function CreateProject() {
   //   size
   // };
 
-  console.log(rows);
   return (
     <React.Fragment>
       <Grid

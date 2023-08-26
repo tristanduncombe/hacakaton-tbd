@@ -25,7 +25,6 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.6",
     "@mui/material": "^5.14.6",
-    "json-loader": "^0.5.7",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -78,8 +77,5 @@
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=16.13.0"
-  },
-  "devDependencies": {
-    "@types/papaparse": "^5.3.8"
   }
 }
