@@ -2,26 +2,23 @@ import React from "react";
 
 import { gradeGen } from "../../Common/dataGen";
 import { useNavigate } from "react-router-dom";
-import { Grid, Typography } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 import CustomButton from "../../Common/button/Button";
 import ProjectCard from "../Project Card/ProjectCard";
 import AddIcon from "@mui/icons-material/Add";
+import { getFiles, getDocumentsPath, readFile } from "../../Common/common";
 
-export type HomeProps = {
-  data: ProjectData[];
-};
-
-type ProjectData = {
-  id: string;
-  name: string;
-  updatedDate: string;
-  completion: string;
-};
-
-export default function Home({ data }: HomeProps) {
+export default function Home() {
   // const styling = {
   //   topPadding = "16px",
   // };
+  const path = getDocumentsPath() + "/Polocrosse-Draw-Generator/Projects";
+
+  const data = getFiles(path).map((file) => {
+    return JSON.parse(readFile(path + `/${file}`));
+  });
+
+  console.log(data);
 
   const handleDeleteProject = (id: string) => {};
   const navigate = useNavigate();
@@ -32,7 +29,7 @@ export default function Home({ data }: HomeProps) {
   };
 
   return (
-    <>
+    <Paper sx={{ padding: 4 }}>
       <Grid
         container
         justifyContent="space-between"
@@ -71,6 +68,6 @@ export default function Home({ data }: HomeProps) {
           ))
         )}
       </Grid>
-    </>
+    </Paper>
   );
 }
