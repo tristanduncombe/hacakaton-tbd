@@ -8,10 +8,36 @@ export function formatRawData(rawJson: any) {
         switch(key) {
             case "Teams":
                 data['Teams'] = formatTeams(rawJson[key]);
+
+            case "Pool Players":
+                data['Pool Players'] = formatCommon(rawJson[key]);
+            
+            case "Umpires":
+                data['Umpires'] = formatCommon(rawJson[key]);
+
         }
       }
     
     return data;
+
+}
+
+function formatCommon(rawObj: any) {
+    let returnData = [] as Array<any>;
+
+    let headers: Array<any> = Object.values(rawObj[2]);
+
+    for (let i = 3; i < rawObj.length; i++) {
+        let rawRow: Array<any> = Object.values(rawObj[i]);
+        let row: {[key: string]: any} = {};
+        for (let x = 0; x < headers.length; x++) {
+            row[headers[x]] = rawRow[x];
+        }
+        returnData.push(row);
+    }
+
+    return returnData;
+
 
 }
 

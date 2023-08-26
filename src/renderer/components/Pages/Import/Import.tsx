@@ -52,7 +52,7 @@ export default function Import() {
        
         });
         let formattedData = formatRawData(rawJsonObjects);
-        console.log(formattedData);
+        //console.log(formattedData);
         
       };
       reader.readAsArrayBuffer(file);
