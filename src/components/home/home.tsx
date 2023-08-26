@@ -25,6 +25,7 @@ export default function Home({ data }: HomeProps) {
 
   const handleDeleteProject = (id: string) => {};
   const navigate = useNavigate();
+  //gradeGen();
 
   const handleAddProjectClick = () => {
     navigate("/createproject");

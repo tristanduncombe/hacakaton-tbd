@@ -1,9 +1,10 @@
 // pages
-import CreateProject from "./components/create_project/CreateProject";
-import Home from "./components/home/home";
-import { HomeProps } from "./components/home/home";
 import { FC } from "react";
+import CreateProject from "./components/create_project/CreateProject";
+import { HomeProps } from "./components/home/home";
+import Home from "./components/home/home";
 import Import from "./components/import/import";
+import TeamSelection from "./components/team_selection/TeamSelection";
 
 export interface Route<T = {}> {
   key: string;
@@ -32,8 +33,15 @@ export const routes: Array<Route<HomeProps>> = [
   {
     key: "import-route",
     title: "Import",
-    path: "/import",
+    path: "/createproject/import",
     enabled: true,
     component: Import,
+  },
+  {
+    key: "teamselection-route",
+    title: "Team Selection",
+    path: "/createproject/import/teamselection",
+    enabled: true,
+    component: TeamSelection,
   },
 ];

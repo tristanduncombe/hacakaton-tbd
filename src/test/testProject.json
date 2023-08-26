@@ -1,0 +1,36 @@
+{
+    "File Info": {
+        "Project Name": "str",
+        "Created Date": 0,
+        "Last Updated": 0
+    },
+    "Competition Info": {
+        "Competition Name": "str",
+        "Competition Data": 0
+    },
+    "data": {
+        "teams": {
+            "Team Category": "Adult",
+            "Team Type": "Mixed",
+            "teams": ["Same as teams in gradings below"]    
+        },
+        "umpires": "TBC",
+        "fields": [
+            {
+                "Field Name": "str",
+                "Field Rank": 0
+            }
+        ],
+        "gradings": [
+            {"Team Category": "Adult",
+            "Team Type": "Mixed",
+            "grades": [
+                {
+                    "grade": "A",
+                    "teams": ["same as teams in teams.json"]
+                }
+            ]
+            }
+        ]
+    }
+}
