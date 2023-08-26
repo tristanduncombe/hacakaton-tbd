@@ -1,146 +1,217 @@
-import { writeFile } from "fs/promises";
-import React, { useState, useEffect } from "react";
+import * as React from "react";
+import { useState } from "react";
 import {
-  AppBar,
-  Toolbar,
+  Grid,
   Typography,
-  IconButton,
   Select,
   MenuItem,
+  TableContainer,
   Table,
-  TableBody,
-  TableCell,
   TableHead,
   TableRow,
-  Grid,
+  TableCell,
+  TableBody,
+  TextField,
 } from "@mui/material";
+import { SelectChangeEvent } from "@mui/material";
 import SaveIcon from "@mui/icons-material/Save";
-import project from "../../../components/Common/test/testProject.json";
-import { writeFileSync } from "fs";
+import LIVEFormattedProjectData from "../../../components/Common/test/LIVEFormattedProjectData.json";
 
 interface Team {
   "Team Club": string;
   "Team Name": string;
-  Contact: string;
-  Phone: string;
   Data: {
     "Mem No": string;
     Name: string;
-    Pts: string;
+    Pts: number | null;
     Club: string;
-    Category: string;
-    Gender: string;
+    Missing: boolean;
   }[];
-  "Team Total": string;
 }
 
-export default function TeamSelection() {
+function TeamSelection() {
   const [teamCategory, setTeamCategory] = useState("Adult");
-  const [teamType, setTeamType] = useState("Mixed");
-  const [isSticky, setIsSticky] = useState(false);
+  const [teamType, setTeamType] = useState("Open");
+  const [teamsData, setTeamsData] = useState<Team[]>([]);
 
-  const teams = project.data.teams.teams.filter(
-    (team) =>
-      project.data.teams["Team Category"] === teamCategory &&
-      project.data.teams["Team Type"] === teamType,
-  );
+  // const handleCategoryChange = (
+  //   event: React.ChangeEvent<{ value: unknown }>,
+  // ) => {
+  //   setTeamCategory(event.target.value as string);
+  // };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const projectTitle = document.getElementById("project-title");
-      if (projectTitle) {
-        const projectTitlePosition =
-          projectTitle.getBoundingClientRect().bottom;
-        setIsSticky(window.scrollY >= projectTitlePosition);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const handleCategoryChange = (event: SelectChangeEvent<any>) => {
+    setTeamCategory(event.target.value);
+  };
 
-  async function handleSave() {
-    // Update the data in the project object
-    // ...
+  const handleTypeChange = (event: SelectChangeEvent<any>) => {
+    setTeamType(event.target.value);
+  };
 
-    // Write the updated data to the JSON file asynchronously
-    try {
-      await writeFile(
-        "./path/to/testProject.json",
-        JSON.stringify(project, null, 2),
-      );
-      console.log("Data saved successfully");
-    } catch (err) {
-      console.error(err);
+  const handleSave = () => {
+    // Save data here
+  };
+
+  React.useEffect(() => {
+    const teams = LIVEFormattedProjectData.data.teams.find(
+      (team) =>
+        team["Team Category"] === teamCategory &&
+        team["Team Type"] === teamType,
+    )?.teams;
+
+    if (teams) {
+      setTeamsData(teams as Team[]);
     }
-  }
+  }, [teamCategory, teamType]);
 
   return (
-    <>
-      <AppBar position={isSticky ? "fixed" : "static"}>
-        <Toolbar>
-          <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Team Selection
-          </Typography>
-          <IconButton color="inherit" onClick={handleSave}>
-            <SaveIcon />
-          </IconButton>
-        </Toolbar>
-      </AppBar>
-      {isSticky && <Toolbar />}
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <Typography variant="h5" sx={{ mt: 2 }}>
-            {project["File Info"]["Project Name"]}
-          </Typography>
-        </Grid>
-        <Grid item xs={12}>
-          <div style={{ marginTop: "16px" }}>
-            <Select
-              value={teamCategory}
-              onChange={(e) => setTeamCategory(e.target.value)}
-            >
-              <MenuItem value="Adult">Adult</MenuItem>
-              <MenuItem value="Junior">Junior</MenuItem>
-            </Select>
-            <Select
-              value={teamType}
-              onChange={(e) => setTeamType(e.target.value)}
-            >
-              <MenuItem value="Open">Open</MenuItem>
-              <MenuItem value="Mixed">Mixed</MenuItem>
-              <MenuItem value="Womens">Womens</MenuItem>
-            </Select>
-          </div>
-        </Grid>
-        {teams.map((team) => (
-          <Grid item xs={12} key={team["Team Name"]}>
-            <div style={{ marginTop: "16px" }}>
-              <Typography variant="h6">{team["Team Name"]}</Typography>
-              <Table sx={{ bgcolor: "#7EC8E3" }}>
-                <TableHead sx={{ bgcolor: "#E57F84" }}>
-                  <TableRow>
-                    <TableCell>Mem No</TableCell>
-                    <TableCell>Name</TableCell>
-                    <TableCell>Pts</TableCell>
-                    <TableCell>Club</TableCell>
-                  </TableRow>
-                </TableHead>
-                <TableBody>
-                  {team.Data &&
-                    team.Data.map((member) => (
-                      <TableRow key={member["Mem No"]}>
-                        <TableCell>{member["Mem No"]}</TableCell>
-                        <TableCell>{member.Name}</TableCell>
-                        <TableCell>{member.Pts}</TableCell>
-                        <TableCell>{member.Club}</TableCell>
-                      </TableRow>
-                    ))}
-                </TableBody>
-              </Table>
-            </div>
-          </Grid>
-        ))}
+    <Grid container spacing={2}>
+      <Grid item xs={12}>
+        <Typography variant="h1">Team Selection</Typography>
+        <SaveIcon onClick={handleSave} />
       </Grid>
-    </>
+      <Grid item xs={6}>
+        <Select value={teamCategory} onChange={handleCategoryChange}>
+          <MenuItem value="Adult">Adult</MenuItem>
+          <MenuItem value="Junior">Junior</MenuItem>
+        </Select>
+      </Grid>
+      <Grid item xs={6}>
+        <Select value={teamType} onChange={handleTypeChange}>
+          <MenuItem value="Open">Open</MenuItem>
+          <MenuItem value="Mixed">Mixed</MenuItem>
+          <MenuItem value="Womens">Women's</MenuItem>
+        </Select>
+      </Grid>
+      {teamsData.map((team) => (
+        <Grid item xs={12} key={team["Team Name"]}>
+          <TableContainer>
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell>{team["Team Name"]}</TableCell>
+                  <TableCell>{team["Team Club"]}</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>Mem No</TableCell>
+                  <TableCell>Name</TableCell>
+                  <TableCell>Pts</TableCell>
+                  <TableCell>Club</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {team.Data.map((data, index) => (
+                  <TableRow key={index}>
+                    {data.Missing ? (
+                      <>
+                        <TableCell>
+                          <TextField
+                            value={data["Mem No"]}
+                            onChange={(event) =>
+                              setTeamsData((prev) =>
+                                prev.map((t) =>
+                                  t["Team Name"] === team["Team Name"]
+                                    ? {
+                                        ...t,
+                                        Data: t.Data.map((d, i) =>
+                                          i === index
+                                            ? {
+                                                ...d,
+                                                "Mem No": event.target.value,
+                                              }
+                                            : d,
+                                        ),
+                                      }
+                                    : t,
+                                ),
+                              )
+                            }
+                          />
+                        </TableCell>
+                        <TableCell>
+                          <TextField
+                            value={data.Name}
+                            onChange={(event) =>
+                              setTeamsData((prev) =>
+                                prev.map((t) =>
+                                  t["Team Name"] === team["Team Name"]
+                                    ? {
+                                        ...t,
+                                        Data: t.Data.map((d, i) =>
+                                          i === index
+                                            ? { ...d, Name: event.target.value }
+                                            : d,
+                                        ),
+                                      }
+                                    : t,
+                                ),
+                              )
+                            }
+                          />
+                        </TableCell>
+                        <TableCell>
+                          <TextField
+                            value={data.Pts}
+                            onChange={(event) =>
+                              setTeamsData((prev) =>
+                                prev.map((t) =>
+                                  t["Team Name"] === team["Team Name"]
+                                    ? {
+                                        ...t,
+                                        Data: t.Data.map((d, i) =>
+                                          i === index
+                                            ? {
+                                                ...d,
+                                                Pts: Number(event.target.value),
+                                              }
+                                            : d,
+                                        ),
+                                      }
+                                    : t,
+                                ),
+                              )
+                            }
+                          />
+                        </TableCell>
+                        <TableCell>
+                          <TextField
+                            value={data.Club}
+                            onChange={(event) =>
+                              setTeamsData((prev) =>
+                                prev.map((t) =>
+                                  t["Team Name"] === team["Team Name"]
+                                    ? {
+                                        ...t,
+                                        Data: t.Data.map((d, i) =>
+                                          i === index
+                                            ? { ...d, Club: event.target.value }
+                                            : d,
+                                        ),
+                                      }
+                                    : t,
+                                ),
+                              )
+                            }
+                          />
+                        </TableCell>
+                      </>
+                    ) : (
+                      <>
+                        <TableCell>{data["Mem No"]}</TableCell>
+                        <TableCell>{data.Name}</TableCell>
+                        <TableCell>{data.Pts}</TableCell>
+                        <TableCell>{data.Club}</TableCell>
+                      </>
+                    )}
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </Grid>
+      ))}
+    </Grid>
   );
 }
+
+export default TeamSelection;
