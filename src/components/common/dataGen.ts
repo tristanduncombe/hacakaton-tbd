@@ -25,9 +25,12 @@ export function gradeGen() {
     // Requirements - have at least 3 teams in a grade - ideallaly 4 teams
     // Group the closest points together
     let gradings = groupTeams(teams);
+    console.log(gradings)
     
     // Now need to even the grades out - the last grade could have 1 or 2 teams in it.
-    //gradings = evenGradesOut(gradings);
+    gradings = evenGradesOut(gradings);
+    
+    
     
 
     return null;
@@ -83,41 +86,41 @@ This function evens out the grades. As they are chunked together,
 so the last grade could have 1 or 2 teams in it
 
 Returns:
-The same 'grades' var as given, but even out.
+The same 'grades' var as given, but evened out.
 */
-/* function evenGradesOut(grades: any) {
-    let returnGrades = grades;
-
+function evenGradesOut(grades: any) {
+    //console.log(grades)
     // If the last grade has two teams, need to merge up
-    if (grades['grades'][-1]['grades'].length == 2) {
+    if (grades['grades'].at(-1)['teams'].length == 2) {
         // First situation, there are at least three grades
         // Move a team from the second grade up one
         // Concat bottom teams to the second grade
         if (grades['grades'].length >= 3) {
             // First move the first team from the second last grade up to the end of the next grade
-            grades['grades'][-3]['teams'].push(grades['grades'][-2]['teams'][0]);
-            grades['grades'][-2]['teams'].shift();
+            grades['grades'].at(-3)['teams'].push(grades['grades'].at(-2)['teams'][0]);
+            grades['grades'].at(-2)['teams'].shift();
 
             // Next, concat last grade to second grade. Then remove last grade
-            grades['grades'][-2]['teams'].concat(grades['grades'][-1]['teams'])
+            grades['grades'].at(-2)['teams'] = grades['grades'].at(-2)['teams'].concat(grades['grades'].at(-1)['teams']);
             grades['grades'].pop();
         }
 
         // Second situation
         // Only two grades, need to combine the two grades into one
-        else if () {
-
+        else if (grades['grades'].length == 2) {
+            grades['grades'][0]['teams'] = grades['grades'][0]['teams'].concat(grades['grades'][1]['teams']);
+            grades['grades'].pop();
         }
         
     } 
     // If the grade has one team - need to combine with the grade above
-    else if (grades['teams'][-1]['teams'].length == 1) {
-        grades[-2]['teams'] = grades[-2]['teams'].concat(grades[-1]['teams']);
-        grades.pop();
+    else if (grades['grades'].at(-1)['teams'].length == 1) {
+        grades['grades'].at(-2)['teams'] = grades['grades'].at(-2)['teams'].concat(grades['grades'].at(-1)['teams']);
+        grades['grades'].pop();
     }
 
     return grades;
-} */
+}
 
 function nextChar(c: any) {
     if (c == 'Z') {
