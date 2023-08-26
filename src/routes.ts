@@ -3,6 +3,7 @@ import CreateProject from "./components/create_project/CreateProject";
 import Home from "./components/home/home";
 import { HomeProps } from "./components/home/home";
 import { FC } from "react";
+import Import from "./components/import/import";
 
 export interface Route<T = {}> {
   key: string;
@@ -27,5 +28,12 @@ export const routes: Array<Route<HomeProps>> = [
     path: "/createproject",
     enabled: true,
     component: CreateProject,
+  },
+  {
+    key: "import-route",
+    title: "Import",
+    path: "/import",
+    enabled: true,
+    component: Import,
   },
 ];

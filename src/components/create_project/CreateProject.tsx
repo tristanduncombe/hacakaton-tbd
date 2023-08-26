@@ -5,6 +5,8 @@ import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
 import { Fab, TextField } from "@mui/material";
 import NavigationIcon from "@mui/icons-material/Navigation";
+import CustomButton from "../button/Button";
+import { useNavigate } from "react-router-dom";
 
 // const Item = styled(Paper)(({ theme }) => ({
 //     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -16,8 +18,8 @@ import NavigationIcon from "@mui/icons-material/Navigation";
 
 export default function CreateProject() {
   const [date, setDate] = useState();
-
   const [rows, setRows] = useState([{ rating: "", name: "" }]);
+  const navigate = useNavigate();
 
   const addRow = () => {
     setRows([...rows, { rating: "", name: "" }]);
@@ -34,6 +36,14 @@ export default function CreateProject() {
     const newRows = [...rows];
     newRows.splice(index, 1);
     setRows(newRows);
+  };
+
+  const nextPage = () => {
+    navigate("/import");
+  };
+
+  const prevPage = () => {
+    navigate("/");
   };
 
   function setValue(newValue: any): void {
@@ -111,12 +121,15 @@ export default function CreateProject() {
         </Grid>
       </Box>
 
-      <Box sx={{ "& > :not(style)": { m: 1 } }}>
-        <Fab variant="extended" size="small" color="primary">
-          <NavigationIcon sx={{ mr: 1 }} />
-          Continue
-        </Fab>
-      </Box>
+
+      <div style={{display:'flex', justifyContent:'space-between'}}>
+        <CustomButton text="Go Back" onClick={prevPage} />
+        <CustomButton text="Continue" onClick={nextPage} />
+      </div>
+
+  
+
+
     </React.Fragment>
   );
 }
