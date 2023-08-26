@@ -3,19 +3,12 @@ import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
 import { TextField, Typography } from "@mui/material";
 import CustomButton from "../../Common/button/Button";
-import { useNavigate } from "react-router-dom";
-
-// const Item = styled(Paper)(({ theme }) => ({
-//     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-//     ...theme.typography.body2,
-//     padding: theme.spacing(1),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//   }));
+import { Link, To, useNavigate } from "react-router-dom";
 
 export default function CreateProject() {
   const [date, setDate] = useState();
   const [rows, setRows] = useState([{ rating: "", name: "" }]);
+  const [projectName, setProjectName] = useState("");
   const navigate = useNavigate();
 
   const addRow = () => {
@@ -47,9 +40,15 @@ export default function CreateProject() {
     throw new Error("Function not implemented.");
   }
 
-  // const inputStyling = {
-  //   size
-  // };
+  function handleNaming(event: any) {
+    setProjectName(event.target.value);
+  }
+
+  const projData = {
+    projName: projectName,
+    projDate: date,
+    projRows: rows,
+  };
 
   return (
     <React.Fragment>
@@ -80,6 +79,7 @@ export default function CreateProject() {
               variant="outlined"
               color="secondary"
               focused
+              onChange={handleNaming}
             />
           </Grid>
 
@@ -140,7 +140,9 @@ export default function CreateProject() {
         <CustomButton text="Go Back" onClick={prevPage} negative />
         <CustomButton
           text="Continue"
-          onClick={() => navigate("/createproject/import")}
+          onClick={() => {
+            navigate("/createproject/import", { state: projData });
+          }}
         />
       </div>
     </React.Fragment>

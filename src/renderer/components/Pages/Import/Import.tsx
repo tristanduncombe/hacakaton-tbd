@@ -4,11 +4,20 @@ import CustomButton from "../../Common/button/Button";
 import { Alert, AlertTitle } from "@mui/material";
 import { read, utils } from "xlsx";
 import { formatRawData } from "./formatRaw";
+import { useLocation } from "react-router-dom";
 
 export default function Import() {
   const inputRef = useRef<HTMLInputElement>(null);
   const [result, setResult] = useState("");
   const navigate = useNavigate();
+
+  // Get you data from last file
+  const location = useLocation();
+  const projInfo = location.state;
+  console.log(projInfo);
+  // projInfo.projDate
+  //projInfo.projName
+  //projInfo.projRows
 
   const nextPage = () => {
     navigate("/teamSelection");
