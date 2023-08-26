@@ -74,6 +74,8 @@
 //   }
 
 import React from "react";
+
+import { gradeGen } from "../common/dataGen";
 import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
 import CustomButton from "../button/Button";
