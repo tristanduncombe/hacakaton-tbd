@@ -1,6 +1,16 @@
 import { any } from 'prop-types';
-import teamsJson from './test/teams.json'
 
+
+export function createGrades(teams: any) {
+    let grades = [] as Array<any>;
+
+    teams.forEach(function(team: any){
+
+        grades.push(gradeGen(team));
+    });
+
+    return grades;
+}
 
 /*
 This function spilts a competition into grades
@@ -9,8 +19,8 @@ Requirements:
 The file passed needs to only contain the teams of one competition category and type.
 The file must already have the teams orders via points
 */
-export function gradeGen() {
-    const teams = teamsJson;
+export function gradeGen(team: any) {
+    const teams = team;
 
     // Check for invalid ammount of teams. I.e 0 or 1 teams
     if (teams['teams'].length <= 1) {
@@ -29,10 +39,13 @@ export function gradeGen() {
     // Now need to even the grades out - the last grade could have 1 or 2 teams in it.
     gradings = evenGradesOut(gradings);
     
-    
-    
+    let returnVal = {
+        "Team Category": teams["Team Category"],
+        "Team Type": teams["Team Type"],
+        "grades": gradings
+    }
 
-    return null;
+    return returnVal;
 }
 
 

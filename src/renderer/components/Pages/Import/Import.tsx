@@ -5,6 +5,7 @@ import { Alert, AlertTitle } from "@mui/material";
 import { read, utils } from "xlsx";
 import { formatRawData } from "./formatRaw";
 import { useLocation } from "react-router-dom";
+import { createGrades } from "../../Common/dataGen";
 
 export default function Import() {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -75,10 +76,13 @@ export default function Import() {
           }
         }
 
+       
+
         /*
-        JAEWONNNNNN LOOOK HERE!!!!!!!!!!!!!!
-        project is the JSON file
+        Need to move this to after team selection
         */
+        Object.assign(project['data'], { gradings: createGrades(project['data']['teams']) });
+        
         console.log(project);
         
       };
