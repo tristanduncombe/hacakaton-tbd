@@ -14,677 +14,671 @@
       "Team Type": "Mixed",
       "teams": [
         {
-          "Team Category": "Adult",
-          "Team Type": "Mixed",
-          "teams": [
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
             {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
             },
             {
-              "Team Club": "TARA",
-              "Team Name": "Tara 1",
-              "Contact": "Christine Neal",
-              "Phone": "# 0746659104",
-              "Data": [
-                {
-                  "Mem No": "Q310000",
-                  "Name": "Amy Gould",
-                  "Pts": "6",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q200135",
-                  "Name": "Lauren Sillitoe",
-                  "Pts": "5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q214855",
-                  "Name": "Sydnee Johnson",
-                  "Pts": "7",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q200136",
-                  "Name": "Chris Sillitoe",
-                  "Pts": "8",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q215653",
-                  "Name": "Aaron Sillitoe",
-                  "Pts": "7",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q211065",
-                  "Name": "Matthew Johnson (C)",
-                  "Pts": "8.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "41.5"
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
             },
             {
-              "Team Club": "WARWICK",
-              "Team Name": "Warwick 1",
-              "Contact": "Lea-Anne Geppert",
-              "Phone": "# 0427306747",
-              "Data": [
-                {
-                  "Mem No": "Q200329",
-                  "Name": "Ella Myers",
-                  "Pts": "6.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q215146",
-                  "Name": "KEELY McGrath",
-                  "Pts": "6.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q122689",
-                  "Name": "Emma Piltz",
-                  "Pts": "6",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q213857",
-                  "Name": "Grant Carroll (C)",
-                  "Pts": "9",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q211238",
-                  "Name": "Scot McLellan",
-                  "Pts": "6",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q200267",
-                  "Name": "Matthew Gleeson",
-                  "Pts": "7",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "41"
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
             },
             {
-              "Team Club": "TARA",
-              "Team Name": "Tara 2",
-              "Contact": "Christine Neal",
-              "Phone": "# 0746659104",
-              "Members": [
-                {
-                  "Mem No": "Q215800",
-                  "Name": "Leticia Payten (C)",
-                  "Pts": "5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q212633",
-                  "Name": "Brodie Stephens",
-                  "Pts": "6.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q411138",
-                  "Name": "Katie Martin",
-                  "Pts": "7",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q211325",
-                  "Name": "Ronald Stephens",
-                  "Pts": "6",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q213136",
-                  "Name": "Raymond Sillitoe",
-                  "Pts": "4",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q215952",
-                  "Name": "Andrew Williams",
-                  "Pts": "5.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "34"
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
             },
             {
-              "Team Club": "TANSEY",
-              "Team Name": "TANSEY MIXED",
-              "Contact": "Lyndal Hafey",
-              "Phone": "# 0408687170",
-              "Members": [
-                {
-                  "Mem No": "",
-                  "Name": "",
-                  "Pts": "0",
-                  "Club": "",
-                  "Category": "Adult"
-                },
-                {
-                  "Mem No": "Q216085",
-                  "Name": "Rachel Wacker",
-                  "Pts": "5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q300058",
-                  "Name": "Samantha Allen (C)",
-                  "Pts": "8",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "Q617300",
-                  "Name": "Drew Gurney",
-                  "Pts": "5.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q613205",
-                  "Name": "Daniel Blyth",
-                  "Pts": "5.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "Q216249",
-                  "Name": "Declan ORourke",
-                  "Pts": "4.5",
-                  "Club": "",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "28.5"
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
             },
             {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra 2",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Members": [
-                {
-                  "Mem No": "N123094",
-                  "Name": "Claudia McKemey",
-                  "Pts": "5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123079",
-                  "Name": "Zac Finlayson",
-                  "Pts": "5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012798",
-                  "Name": "Sam Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N200162",
-                  "Name": "Max Johnstone",
-                  "Pts": "5.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "22"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
-            },
-            {
-              "Team Club": "GUYRA",
-              "Team Name": "Guyra mixed 1",
-              "Contact": "Sara Hancock",
-              "Phone": "#0437694084",
-              "Data": [
-                {
-                  "Mem No": "N213029",
-                  "Name": "Ryle Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N123095",
-                  "Name": "Bridget McKemey",
-                  "Pts": "4.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N211083",
-                  "Name": "Ella Elks",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "f"
-                },
-                {
-                  "Mem No": "N010482",
-                  "Name": "Matthew Grills",
-                  "Pts": "7.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N012946",
-                  "Name": "Tim Finlayson",
-                  "Pts": "6.5",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                },
-                {
-                  "Mem No": "N211084",
-                  "Name": "Todd Waugh",
-                  "Pts": "8",
-                  "Club": "GUYRA",
-                  "Category": "Adult",
-                  "Gender": "m"
-                }
-              ],
-              "Team Total": "42"
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
             }
-          ]
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "TARA",
+          "Team Name": "Tara 1",
+          "Contact": "Christine Neal",
+          "Phone": "# 0746659104",
+          "Data": [
+            {
+              "Mem No": "Q310000",
+              "Name": "Amy Gould",
+              "Pts": "6",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q200135",
+              "Name": "Lauren Sillitoe",
+              "Pts": "5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q214855",
+              "Name": "Sydnee Johnson",
+              "Pts": "7",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q200136",
+              "Name": "Chris Sillitoe",
+              "Pts": "8",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q215653",
+              "Name": "Aaron Sillitoe",
+              "Pts": "7",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q211065",
+              "Name": "Matthew Johnson (C)",
+              "Pts": "8.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "41.5"
+        },
+        {
+          "Team Club": "WARWICK",
+          "Team Name": "Warwick 1",
+          "Contact": "Lea-Anne Geppert",
+          "Phone": "# 0427306747",
+          "Data": [
+            {
+              "Mem No": "Q200329",
+              "Name": "Ella Myers",
+              "Pts": "6.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q215146",
+              "Name": "KEELY McGrath",
+              "Pts": "6.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q122689",
+              "Name": "Emma Piltz",
+              "Pts": "6",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q213857",
+              "Name": "Grant Carroll (C)",
+              "Pts": "9",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q211238",
+              "Name": "Scot McLellan",
+              "Pts": "6",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q200267",
+              "Name": "Matthew Gleeson",
+              "Pts": "7",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "41"
+        },
+        {
+          "Team Club": "TARA",
+          "Team Name": "Tara 2",
+          "Contact": "Christine Neal",
+          "Phone": "# 0746659104",
+          "Members": [
+            {
+              "Mem No": "Q215800",
+              "Name": "Leticia Payten (C)",
+              "Pts": "5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q212633",
+              "Name": "Brodie Stephens",
+              "Pts": "6.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q411138",
+              "Name": "Katie Martin",
+              "Pts": "7",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q211325",
+              "Name": "Ronald Stephens",
+              "Pts": "6",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q213136",
+              "Name": "Raymond Sillitoe",
+              "Pts": "4",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q215952",
+              "Name": "Andrew Williams",
+              "Pts": "5.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "34"
+        },
+        {
+          "Team Club": "TANSEY",
+          "Team Name": "TANSEY MIXED",
+          "Contact": "Lyndal Hafey",
+          "Phone": "# 0408687170",
+          "Members": [
+            {
+              "Mem No": "",
+              "Name": "",
+              "Pts": "0",
+              "Club": "",
+              "Category": "Adult"
+            },
+            {
+              "Mem No": "Q216085",
+              "Name": "Rachel Wacker",
+              "Pts": "5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q300058",
+              "Name": "Samantha Allen (C)",
+              "Pts": "8",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "Q617300",
+              "Name": "Drew Gurney",
+              "Pts": "5.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q613205",
+              "Name": "Daniel Blyth",
+              "Pts": "5.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "Q216249",
+              "Name": "Declan ORourke",
+              "Pts": "4.5",
+              "Club": "",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "28.5"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra 2",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Members": [
+            {
+              "Mem No": "N123094",
+              "Name": "Claudia McKemey",
+              "Pts": "5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123079",
+              "Name": "Zac Finlayson",
+              "Pts": "5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012798",
+              "Name": "Sam Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N200162",
+              "Name": "Max Johnstone",
+              "Pts": "5.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "22"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
+        },
+        {
+          "Team Club": "GUYRA",
+          "Team Name": "Guyra mixed 1",
+          "Contact": "Sara Hancock",
+          "Phone": "#0437694084",
+          "Data": [
+            {
+              "Mem No": "N213029",
+              "Name": "Ryle Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N123095",
+              "Name": "Bridget McKemey",
+              "Pts": "4.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N211083",
+              "Name": "Ella Elks",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "f"
+            },
+            {
+              "Mem No": "N010482",
+              "Name": "Matthew Grills",
+              "Pts": "7.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N012946",
+              "Name": "Tim Finlayson",
+              "Pts": "6.5",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            },
+            {
+              "Mem No": "N211084",
+              "Name": "Todd Waugh",
+              "Pts": "8",
+              "Club": "GUYRA",
+              "Category": "Adult",
+              "Gender": "m"
+            }
+          ],
+          "Team Total": "42"
         }
       ]
     },

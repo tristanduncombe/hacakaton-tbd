@@ -94,7 +94,7 @@ export default function TeamSelection() {
             </Select>
           </div>
         </Grid>
-        {/* {teams.map((team) => (
+        {teams.map((team) => (
           <Grid item xs={12} key={team["Team Name"]}>
             <div style={{ marginTop: "16px" }}>
               <Typography variant="h6">{team["Team Name"]}</Typography>
@@ -124,8 +124,8 @@ export default function TeamSelection() {
                 </TableBody>
               </Table>
             </div>
-          </Grid> */}
-        {/* ))} */}
+          </Grid>
+        ))}
       </Grid>
     </>
   );
