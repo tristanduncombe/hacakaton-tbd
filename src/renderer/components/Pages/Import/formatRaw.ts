@@ -10,7 +10,11 @@ export function formatRawData(rawJson: any) {
                 data['Teams'] = formatTeams(rawJson[key]);
 
             case "Pool Players":
-                data['Pool Players'] = formatPoolPlayers(rawJson[key]);
+                data['Pool Players'] = formatCommon(rawJson[key]);
+            
+            case "Umpires":
+                data['Umpires'] = formatCommon(rawJson[key]);
+
         }
       }
     
@@ -18,7 +22,7 @@ export function formatRawData(rawJson: any) {
 
 }
 
-function formatPoolPlayers(rawObj: any) {
+function formatCommon(rawObj: any) {
     let returnData = [] as Array<any>;
 
     let headers: Array<any> = Object.values(rawObj[2]);
