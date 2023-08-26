@@ -39,7 +39,7 @@ function formatTeams(rawObj:any) {
         // Start team
         else if (rawObj[i]["Teams List"] == "Team Club:") {
             team["Team Club"] = rawObj[i]["__EMPTY"];
-            team["Team Name:"] = rawObj[i]["Page 1"];
+            team["Team Name"] = rawObj[i]["Page 1"];
 
             team['Data'] = getMembers(rawObj, i + 3, rawObj[i+2])
             team['Team Total'] = rawObj[i + 9]["__EMPTY_1"]
