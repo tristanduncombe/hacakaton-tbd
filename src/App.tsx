@@ -12,6 +12,10 @@ function App() {
   const theme = createTheme({
     typography: {
       fontFamily: `"Apple Color Emoji", sans-serif`,
+      h1: {
+        fontFamily: `"Arbutus Slab"`,
+        fontSize: `"25px"`,
+      },
     },
     palette: {
       primary: {

@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
-import { Fab, TextField } from "@mui/material";
+import { Fab, TextField, Typography } from "@mui/material";
 import NavigationIcon from "@mui/icons-material/Navigation";
 import CustomButton from "../button/Button";
 import { useNavigate } from "react-router-dom";
@@ -52,8 +52,16 @@ export default function CreateProject() {
   console.log(rows);
   return (
     <React.Fragment>
-      <div> Australian Polo X Association </div>
-      <h1> New Project </h1>
+      <Grid
+        container
+        justifyContent="space-between"
+        alignItems="center"
+        paddingBottom={2}
+      >
+        <Grid item>
+          <Typography variant="h1"> New Project </Typography>
+        </Grid>
+      </Grid>
       <Box sx={{ width: "80%" }}>
         <Grid container rowSpacing={1} sx={{ backgroundColor: "white" }}>
           <Grid item xs={6} sx={{ backgroundColor: "white" }}>
@@ -121,15 +129,10 @@ export default function CreateProject() {
         </Grid>
       </Box>
 
-
-      <div style={{display:'flex', justifyContent:'space-between'}}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <CustomButton text="Go Back" onClick={prevPage} />
         <CustomButton text="Continue" onClick={nextPage} />
       </div>
-
-  
-
-
     </React.Fragment>
   );
 }

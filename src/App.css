@@ -1,5 +1,6 @@
 :root {
   --main-color: #e57f84;
+  --sub-main-color: #7ec8e3;
 }
 
 /* Margins and Paddings */
@@ -27,6 +28,16 @@
   .top_60 {
     margin-top: 30px;
   }
+}
+
+@font-face {
+  font-family: "Arbutus Slab";
+  src: url("./assets/fonts/arbutus-slab/arbutusslab-regular.ttf")
+    format("truetype");
+}
+
+h1 {
+  font-family: "Arbutus Slab", sans-serif;
 }
 
 /* End of Margins and Paddings */
