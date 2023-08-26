@@ -123,8 +123,6 @@ export default function TeamSelection() {
                     <TableCell>Name</TableCell>
                     <TableCell>Pts</TableCell>
                     <TableCell>Club</TableCell>
-                    <TableCell>Category</TableCell>
-                    <TableCell>Gender</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -135,8 +133,6 @@ export default function TeamSelection() {
                         <TableCell>{member.Name}</TableCell>
                         <TableCell>{member.Pts}</TableCell>
                         <TableCell>{member.Club}</TableCell>
-                        <TableCell>{member.Category}</TableCell>
-                        <TableCell>{member.Gender}</TableCell>
                       </TableRow>
                     ))}
                 </TableBody>

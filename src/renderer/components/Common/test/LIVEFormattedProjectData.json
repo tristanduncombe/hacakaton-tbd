@@ -1,0 +1,1841 @@
+{
+    "File Info": {
+        "Project Name": "str",
+        "Created Date": 0,
+        "Last Updated": 0,
+        "Project Location": "/documents/usr/projtest.json"
+    },
+    "Competition Info": {
+        "Competition Name": "str",
+        "Competition Data": 0
+    },
+    "data": {
+        "teams": 
+            [
+                {
+                    "Team Category": "Adult",
+                    "Team Type": "Mixed",
+                    "teams": [
+                        {
+                            "Team Club": "GUYRA",
+                            "Team Name": "Guyra mixed 1",
+                            "Data": [
+                                {
+                                    "Mem No": "N213029",
+                                    "Name": "Ryle Waugh",
+                                    "Pts": 8,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N123095",
+                                    "Name": "Bridget McKemey",
+                                    "Pts": 4.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N211083",
+                                    "Name": "Ella Elks",
+                                    "Pts": 7.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N010482",
+                                    "Name": "Matthew Grills",
+                                    "Pts": 7.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N012946",
+                                    "Name": "Tim Finlayson",
+                                    "Pts": 6.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N211084",
+                                    "Name": "Todd Waugh",
+                                    "Pts": 8,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 42,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 42
+                        },
+                        {
+                            "Team Club": "TARA",
+                            "Team Name": "Tara 1",
+                            "Data": [
+                                {
+                                    "Mem No": "Q310000",
+                                    "Name": "Amy Gould",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200135",
+                                    "Name": "Lauren Sillitoe",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214855",
+                                    "Name": "Sydnee Johnson",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200136",
+                                    "Name": "Chris Sillitoe",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215653",
+                                    "Name": "Aaron Sillitoe",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211065",
+                                    "Name": "Matthew Johnson (C)",
+                                    "Pts": 8.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 41.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 41.5
+                        },
+                        {
+                            "Team Club": "WARWICK",
+                            "Team Name": "Warwick 1",
+                            "Data": [
+                                {
+                                    "Mem No": "Q200329",
+                                    "Name": "Ella Myers",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215146",
+                                    "Name": "KEELY McGrath",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q122689",
+                                    "Name": "Emma Piltz",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213857",
+                                    "Name": "Grant Carroll (C)",
+                                    "Pts": 9,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211238",
+                                    "Name": "Scot McLellan",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200267",
+                                    "Name": "Matthew Gleeson",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 41,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 41
+                        },
+                        {
+                            "Team Club": "TARA",
+                            "Team Name": "Tara 2",
+                            "Data": [
+                                {
+                                    "Mem No": "Q215800",
+                                    "Name": "Leticia Payten (C)",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212633",
+                                    "Name": "Brodie Stephens",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q411138",
+                                    "Name": "Katie Martin",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211325",
+                                    "Name": "Ronald Stephens",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213136",
+                                    "Name": "Raymond Sillitoe",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215952",
+                                    "Name": "Andrew Williams",
+                                    "Pts": 5.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 34,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 34
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name": "TANSEY MIXED",
+                            "Data": [
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "Q216085",
+                                    "Name": "Rachel Wacker",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q300058",
+                                    "Name": "Samantha Allen (C)",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q617300",
+                                    "Name": "Drew Gurney",
+                                    "Pts": 5.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q613205",
+                                    "Name": "Daniel Blyth",
+                                    "Pts": 5.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216249",
+                                    "Name": "Declan ORourke",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 28.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 28.5
+                        },
+                        {
+                            "Team Club": "GUYRA",
+                            "Team Name": "Guyra 2",
+                            "Data": [
+                                {
+                                    "Mem No": "N123094",
+                                    "Name": "Claudia McKemey",
+                                    "Pts": 5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "N123079",
+                                    "Name": "Zac Finlayson",
+                                    "Pts": 5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N012798",
+                                    "Name": "Sam Finlayson",
+                                    "Pts": 6.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N200162",
+                                    "Name": "Max Johnstone",
+                                    "Pts": 5.5,
+                                    "Club": "GUYRA",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 22,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 22
+                        }
+                    ]
+                },
+                {
+                    "Team Category": "Adult",
+                    "Team Type": "Open",
+                    "teams": [
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 1",
+                            "Data": [
+                                {
+                                    "Mem No": "V411907",
+                                    "Name": "Elliott Avis",
+                                    "Pts": 8.5,
+                                    "Club": "MOOROODUC",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212885",
+                                    "Name": "Tom ONeill",
+                                    "Pts": 9,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214277",
+                                    "Name": "Beth Hafey",
+                                    "Pts": 8.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211211",
+                                    "Name": "Trent Collins (C)",
+                                    "Pts": 10,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211020",
+                                    "Name": "Stuart Shepherd",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211046",
+                                    "Name": "Justin Hafey",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 50,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 50
+                        },
+                        {
+                            "Team Club": "WARWICK",
+                            "Team Name:": "Warwick 1",
+                            "Data": [
+                                {
+                                    "Mem No": "Q214548",
+                                    "Name": "Callum Brook (C)",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200300",
+                                    "Name": "Dane Myers",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211633",
+                                    "Name": "Russell Owens",
+                                    "Pts": 8.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211053",
+                                    "Name": "Cameron Shepherd",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211632",
+                                    "Name": "Allan Owens",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216093",
+                                    "Name": "Craig Cameron",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 45.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 45.5
+                        },
+                        {
+                            "Team Club": "INVERELL",
+                            "Team Name:": "Inverell 1",
+                            "Data": [
+                                {
+                                    "Mem No": "N010478",
+                                    "Name": "Brett Woodward",
+                                    "Pts": 7.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124351",
+                                    "Name": "Cameron Neville",
+                                    "Pts": 6.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N011297",
+                                    "Name": "Darcy Brennan",
+                                    "Pts": 6.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N012855",
+                                    "Name": "Alec Grills",
+                                    "Pts": 6.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N011296",
+                                    "Name": "Lachlan Brennan",
+                                    "Pts": 6,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N012151",
+                                    "Name": "Thomas OBrien",
+                                    "Pts": 7.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 40.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 40.5
+                        },
+                        {
+                            "Team Club": "WARWICK",
+                            "Team Name:": "Warwick 2",
+                            "Data": [
+                                {
+                                    "Mem No": "Q213041",
+                                    "Name": "Anthony Wells",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213908",
+                                    "Name": "Sophie Wells",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213916",
+                                    "Name": "Kris Lynas",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211049",
+                                    "Name": "Paul McGrath (C)",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212774",
+                                    "Name": "Katie Owens",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216196",
+                                    "Name": "Carl Wade",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 37.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 37.5
+                        },
+                        {
+                            "Team Club": "KILLARNEY",
+                            "Team Name:": "Killarney 1",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216035",
+                                    "Name": "Daniel Oleary (C)",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216526",
+                                    "Name": "Mitchell Hearn",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q217191",
+                                    "Name": "Luke Oleary",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212689",
+                                    "Name": "Brenden Dawson",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216052",
+                                    "Name": "Michael Oleary",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213208",
+                                    "Name": "Anthony OLeary",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 35,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 35
+                        },
+                        {
+                            "Team Club": "WANDOAN",
+                            "Team Name:": "Wandoan",
+                            "Data": [
+                                {
+                                    "Mem No": "Q211157",
+                                    "Name": "Michael Dillon (C)",
+                                    "Pts": 8,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214059",
+                                    "Name": "Holly Dillon",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214539",
+                                    "Name": "Geoff Bowden",
+                                    "Pts": 7,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214540",
+                                    "Name": "Stacey Bowden",
+                                    "Pts": 5.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212299",
+                                    "Name": "Catherine Trail",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211063",
+                                    "Name": "David Trail",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 33,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 33
+                        },
+                        {
+                            "Team Club": "INVERELL",
+                            "Team Name:": "Inverell 2",
+                            "Data": [
+                                {
+                                    "Mem No": "N514229",
+                                    "Name": "Benjamin Guest",
+                                    "Pts": 6,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124550",
+                                    "Name": "Bailey Woodward",
+                                    "Pts": 3,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N010491",
+                                    "Name": "Fraser Hughes",
+                                    "Pts": 5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N214569",
+                                    "Name": "Emily Gentry",
+                                    "Pts": 5.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N214568",
+                                    "Name": "Georgia Gentry",
+                                    "Pts": 4.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N010775",
+                                    "Name": "Josh Berry",
+                                    "Pts": 5.5,
+                                    "Club": "INVERELL",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 29.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 29.5
+                        },
+                        {
+                            "Team Club": "CHINCHILLA",
+                            "Team Name:": "Chinchilla",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216166",
+                                    "Name": "Connor OSullivan",
+                                    "Pts": 7.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211765",
+                                    "Name": "Michael Shaw",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214352",
+                                    "Name": "Lily Bredhauer",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214351",
+                                    "Name": "Thomas Bredhauer",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216612",
+                                    "Name": "Haydon Fisher",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212154",
+                                    "Name": "James Bredhauer (C)",
+                                    "Pts": 6.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 28,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 28
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 2",
+                            "Data": [
+                                {
+                                    "Mem No": "Q213912",
+                                    "Name": "Emma Hafey",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216111",
+                                    "Name": "Beth Shepherd",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215075",
+                                    "Name": "Laura Hafey (C)",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200114",
+                                    "Name": "Dakota Collins",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214591",
+                                    "Name": "Franklin Bettridge",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215105",
+                                    "Name": "Tegan Lamb",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 27.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 27.5
+                        },
+                        {
+                            "Team Club": "CUNNINGHAM",
+                            "Team Name:": "Cunningham 1",
+                            "Data": [
+                                {
+                                    "Mem No": "Q214273",
+                                    "Name": "Billie Dixon-Craninckx",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215039",
+                                    "Name": "Craig Belford",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214305",
+                                    "Name": "Trent Brickley",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216821",
+                                    "Name": "Jane Howes (C)",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215920",
+                                    "Name": "Meegan Syme",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216104",
+                                    "Name": "Elizah Feltham",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 24,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 24
+                        },
+                        {
+                            "Team Club": "WARWICK",
+                            "Team Name:": "Warwick 3",
+                            "Data": [
+                                {
+                                    "Mem No": "Q211050",
+                                    "Name": "Ross Shepherd",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211052",
+                                    "Name": "Alicia Shepherd (C)",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216175",
+                                    "Name": "Annabelle Gleeson",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216174",
+                                    "Name": "Madeline Gleeson",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215855",
+                                    "Name": "John Oleary",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211058",
+                                    "Name": "Anita Shepherd",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 23,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 23
+                        },
+                        {
+                            "Team Club": "CUNNINGHAM",
+                            "Team Name:": "Cunningham 2",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216103",
+                                    "Name": "Charles Lund",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212665",
+                                    "Name": "Paul Moody (C)",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215173",
+                                    "Name": "Belinda Butterfield",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216923",
+                                    "Name": "Riley Mauch",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213669",
+                                    "Name": "Sophie Forster",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211092",
+                                    "Name": "Bill Kerr",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 23,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 23
+                        },
+                        {
+                            "Team Club": "COFFS HARBOUR",
+                            "Team Name:": "coffs",
+                            "Data": [
+                                {
+                                    "Mem No": "N010434",
+                                    "Name": "Kye Moran",
+                                    "Pts": 6.5,
+                                    "Club": "COFFS HARBOUR",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124083",
+                                    "Name": "Emma Clayden",
+                                    "Pts": 1,
+                                    "Club": "COFFS HARBOUR",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N123858",
+                                    "Name": "Kate Connors",
+                                    "Pts": 5,
+                                    "Club": "COFFS HARBOUR",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N010437",
+                                    "Name": "Sharnie Moran",
+                                    "Pts": 5.5,
+                                    "Club": "COFFS HARBOUR",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124084",
+                                    "Name": "Megan Mackay",
+                                    "Pts": 4.5,
+                                    "Club": "COFFS HARBOUR",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 22.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 22.5
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 4",
+                            "Data": [
+                                {
+                                    "Mem No": "Q214854",
+                                    "Name": "BJ Gentry (C)",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215950",
+                                    "Name": "Guss McMaster",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q613216",
+                                    "Name": "Donna Gurney",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212899",
+                                    "Name": "David Marshall",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216248",
+                                    "Name": "Erin Orourke",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212688",
+                                    "Name": "Bruce Johnson",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 20.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 20.5
+                        },
+                        {
+                            "Team Club": "CUNNINGHAM",
+                            "Team Name:": "Cunningham 3",
+                            "Data": [
+                                {
+                                    "Mem No": "Q217138",
+                                    "Name": "Shaun Kelly (C)",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211102",
+                                    "Name": "Melissa Kerr",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215892",
+                                    "Name": "Emily Stickler",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q122666",
+                                    "Name": "Lauren Morton",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214226",
+                                    "Name": "Cameron Byrne",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215896",
+                                    "Name": "Warwick Murnane",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 20.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 20.5
+                        },
+                        {
+                            "Team Club": "STANLEY RIVERS",
+                            "Team Name:": "Stanley Rivers",
+                            "Data": [
+                                {
+                                    "Mem No": "Q211697",
+                                    "Name": "Clay Colless (C)",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214806",
+                                    "Name": "Susanne (Susie) Smith",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q212664",
+                                    "Name": "John Colless",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213659",
+                                    "Name": "Debbie Cooper",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216313",
+                                    "Name": "Janelle Weir",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214549",
+                                    "Name": "Paul Pritchard",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 20,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 20
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 3",
+                            "Data": [
+                                {
+                                    "Mem No": "Q100281",
+                                    "Name": "Jack Hamilton (C)",
+                                    "Pts": 5.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216492",
+                                    "Name": "Oliver Watson",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216212",
+                                    "Name": "Shaun O Rourke",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200302",
+                                    "Name": "Wyatt McMaster",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216476",
+                                    "Name": "Ryan Baxter",
+                                    "Pts": 1,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216531",
+                                    "Name": "Jason Gillett",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 19.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 19.5
+                        },
+                        {
+                            "Team Club": "KILLARNEY",
+                            "Team Name:": "Killarney 2",
+                            "Data": [
+                                {
+                                    "Mem No": "Q215320",
+                                    "Name": "Corey Perren",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216524",
+                                    "Name": "Fredie O’Leary",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216706",
+                                    "Name": "Lesleigh Vincent",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215993",
+                                    "Name": "Henry Ellison",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q213686",
+                                    "Name": "Amber Perren",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216927",
+                                    "Name": "Heather Cutts (C)",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 19,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 19
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 5",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216194",
+                                    "Name": "Chloe Frear",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215046",
+                                    "Name": "Mia-Rose Cooper",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q211894",
+                                    "Name": "Sarah Owens (C)",
+                                    "Pts": 5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216490",
+                                    "Name": "Thomas Tornabene",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216877",
+                                    "Name": "Ella Watson",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216719",
+                                    "Name": "Emma Wostear",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 17.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 17.5
+                        },
+                        {
+                            "Team Club": "GRAFTON",
+                            "Team Name:": "Grafton 1",
+                            "Data": [
+                                {
+                                    "Mem No": "N010211",
+                                    "Name": "Jaeben Loy",
+                                    "Pts": 4.5,
+                                    "Club": "GRAFTON",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124058",
+                                    "Name": "Jason Connors",
+                                    "Pts": 2,
+                                    "Club": "GRAFTON",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N100310",
+                                    "Name": "Ella Grimmond",
+                                    "Pts": 2,
+                                    "Club": "GRAFTON",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "N124642",
+                                    "Name": "Rebecca Donnelly",
+                                    "Pts": 4.5,
+                                    "Club": "GRAFTON",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "N124479",
+                                    "Name": "Allysha Stewart",
+                                    "Pts": 2,
+                                    "Club": "GRAFTON",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 15,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 15
+                        },
+                        {
+                            "Team Club": "WARWICK",
+                            "Team Name:": "Warwick 4",
+                            "Data": [
+                                {
+                                    "Mem No": "Q214550",
+                                    "Name": "Monique Hoare (C)",
+                                    "Pts": 6,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216547",
+                                    "Name": "Kristi Hayes",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214022",
+                                    "Name": "Deanne McLellan",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q217229",
+                                    "Name": "Scott Carpenter Jnr",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 14.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 14.5
+                        },
+                        {
+                            "Team Club": "CUNNINGHAM",
+                            "Team Name:": "Cunningham 4",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216962",
+                                    "Name": "Scott Suter",
+                                    "Pts": 1,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214162",
+                                    "Name": "Martine Griffiths",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215171",
+                                    "Name": "Kristie Kelleway",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216736",
+                                    "Name": "Andrew Hopgood (C)",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q217164",
+                                    "Name": "Dylan Suter",
+                                    "Pts": 1,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q215637",
+                                    "Name": "Michael Forster",
+                                    "Pts": 4.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 14,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 14
+                        },
+                        {
+                            "Team Club": "KILLARNEY",
+                            "Team Name:": "Killarney 3",
+                            "Data": [
+                                {
+                                    "Mem No": "Q215995",
+                                    "Name": "Darcy Ellison",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216968",
+                                    "Name": "Mitchell Gillece",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216870",
+                                    "Name": "Mckenzie Gillece",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216527",
+                                    "Name": "Alex Nixon (C)",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q217169",
+                                    "Name": "Tilly Gillece",
+                                    "Pts": 1,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q412199",
+                                    "Name": "Emily Forbes",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 13,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 13
+                        },
+                        {
+                            "Team Club": "CUNNINGHAM",
+                            "Team Name:": "Cunningham 5",
+                            "Data": [
+                                {
+                                    "Mem No": "Q216931",
+                                    "Name": "Christopher Howes",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200226",
+                                    "Name": "Grant Sakrewski",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200260",
+                                    "Name": "Robert Slack-smith",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q200316",
+                                    "Name": "Amanda Lund",
+                                    "Pts": 2,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216997",
+                                    "Name": "Georgia Moody (C)",
+                                    "Pts": 1,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214776",
+                                    "Name": "Terri McDonald",
+                                    "Pts": 2.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 11.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 11.5
+                        },
+                        {
+                            "Team Club": "TARA",
+                            "Team Name:": "Tara 3",
+                            "Data": [
+                                {
+                                    "Mem No": "Q212418",
+                                    "Name": "Peter Johnson (C)",
+                                    "Pts": 4,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216966",
+                                    "Name": "David Osullivan",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216494",
+                                    "Name": "Adam Brice",
+                                    "Pts": 3,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 10,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 10
+                        },
+                        {
+                            "Team Club": "TANSEY",
+                            "Team Name:": "TANSEY 6",
+                            "Data": [
+                                {
+                                    "Mem No": "Q215756",
+                                    "Name": "Brian Paterson (C)",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q214285",
+                                    "Name": "Shane Lamb",
+                                    "Pts": 3.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": "Q216477",
+                                    "Name": "Mathew Baxter",
+                                    "Pts": 1.5,
+                                    "Club": "Adult",
+                                    "Missing": false
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": 0,
+                                    "Name": "Player Required",
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": true
+                                },
+                                {
+                                    "Mem No": "Team Total:",
+                                    "Name": 8.5,
+                                    "Pts": "",
+                                    "Club": "",
+                                    "Missing": false
+                                }
+                            ],
+                            "Team Total": 8.5
+                        }
+                    ]
+                }
+            ]
+            
+        ,
+        "umpires": "TBC",
+        "fields": [
+            {
+                "Field Name": "str",
+                "Field Rank": 0
+            }
+        ],
+        "gradings": [
+            {"Team Category": "Adult",
+            "Team Type": "Mixed",
+            "grades": [
+                {
+                    "grade": "A",
+                    "teams": ["same as teams in teams.json"]
+                }
+            ]
+            }
+        ]
+    }
+}
