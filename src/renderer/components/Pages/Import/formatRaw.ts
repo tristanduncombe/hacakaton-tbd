@@ -98,7 +98,8 @@ function getMembers(rawObj: any, startIndex: any, headers: any) {
         if (member["Mem No"] == 0 || member["Mem No"] == "Player Required") {
             member["Missing"] = true;
             member["Name"] = "Player Required";
-            member["Mem No"] = 0;
+            member["Mem No"] = "";
+            member["Pts"] = null;
         } else {
             member["Missing"] = false;
         }
