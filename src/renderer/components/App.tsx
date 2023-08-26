@@ -4,16 +4,10 @@ import { createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/layout/Layout";
 import { routes as appRoutes } from "./routes";
-import { Titlebar } from "custom-electron-titlebar";
 
 import "./App.css";
 
 function App() {
-  window.addEventListener("DOMContentLoaded", () => {
-    // Title bar implementation
-    new Titlebar({});
-  });
-
   // define theme
   const theme = createTheme({
     typography: {

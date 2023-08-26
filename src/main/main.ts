@@ -1,13 +1,8 @@
-import { app, BrowserWindow } from "electron";
+import { app, BrowserWindow, nativeImage } from "electron";
 import * as path from "path";
 import * as url from "url";
-import {
-  setupTitlebar,
-  attachTitlebarToWindow,
-} from "custom-electron-titlebar/main";
 
 let mainWindow: Electron.BrowserWindow | null;
-setupTitlebar();
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -15,17 +10,17 @@ function createWindow() {
     height: 700,
     backgroundColor: "#f2f2f2",
     autoHideMenuBar: true,
-    titleBarStyle: "hidden",
-    titleBarOverlay: true,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
       devTools: process.env.NODE_ENV !== "production",
-      preload: "./preload.ts",
     },
   });
 
-  attachTitlebarToWindow(mainWindow);
+  mainWindow.setOverlayIcon(
+    nativeImage.createFromPath("../../static/images/thumbnail.png"),
+    "Description for overlay"
+  );
 
   if (process.env.NODE_ENV === "development") {
     mainWindow.loadURL("http://localhost:4000");
@@ -65,3 +60,22 @@ app.on("activate", () => {
     createWindow();
   }
 });
+
+app.setUserTasks([
+  {
+    program: process.execPath,
+    arguments: "--new-project",
+    iconPath: process.execPath,
+    iconIndex: 0,
+    title: "New Project",
+    description: "Create a new project",
+  },
+  {
+    program: process.execPath,
+    arguments: "--latest-project",
+    iconPath: process.execPath,
+    iconIndex: 0,
+    title: "Latest Project",
+    description: "Open latest project",
+  },
+]);
