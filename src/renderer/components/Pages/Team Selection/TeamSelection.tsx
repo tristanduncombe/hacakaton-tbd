@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Grid,
   Typography,
@@ -15,6 +16,7 @@ import {
 } from "@mui/material";
 import { SelectChangeEvent } from "@mui/material";
 import SaveIcon from "@mui/icons-material/Save";
+import CustomButton from "../../Common/button/Button";
 import LIVEFormattedProjectData from "../../../components/Common/test/LIVEFormattedProjectData.json";
 
 interface Team {
@@ -30,6 +32,7 @@ interface Team {
 }
 
 function TeamSelection() {
+  const navigate = useNavigate();
   const [teamCategory, setTeamCategory] = useState("Adult");
   const [teamType, setTeamType] = useState("Open");
   const [teamsData, setTeamsData] = useState<Team[]>([]);
@@ -69,6 +72,12 @@ function TeamSelection() {
       <Grid item xs={12}>
         <Typography variant="h1">Team Selection</Typography>
         <SaveIcon onClick={handleSave} />
+        <CustomButton
+          text="next"
+          onClick={() =>
+            navigate("/createproject/import/teamselection/finaldraw")
+          }
+        />
       </Grid>
       <Grid item xs={6}>
         <Select value={teamCategory} onChange={handleCategoryChange}>

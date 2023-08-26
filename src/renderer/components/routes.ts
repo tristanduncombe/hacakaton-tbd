@@ -5,6 +5,7 @@ import { HomeProps } from "./Pages/Home/Home";
 import Home from "./Pages/Home/Home";
 import Import from "./Pages/Import/Import";
 import TeamSelection from "./Pages/Team Selection/TeamSelection";
+import FinalDraw from "./Pages/Final Draw/FinalDraw";
 
 export interface Route<T = Record<string, unknown>> {
   key: string;
@@ -43,5 +44,12 @@ export const routes: Array<Route<HomeProps>> = [
     path: "/createproject/import/teamselection",
     enabled: true,
     component: TeamSelection,
+  },
+  {
+    key: "finaldraw-route",
+    title: "Final Draw",
+    path: "/createproject/import/teamselection/finalDraw",
+    enabled: true,
+    component: FinalDraw,
   },
 ];
