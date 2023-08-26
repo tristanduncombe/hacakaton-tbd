@@ -33,7 +33,7 @@ export const routes: Array<Route<HomeProps>> = [
   {
     key: "import-route",
     title: "Import",
-    path: "/import",
+    path: "/createproject/import",
     enabled: true,
     component: Import,
   },
