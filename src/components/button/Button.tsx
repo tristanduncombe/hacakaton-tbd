@@ -16,7 +16,9 @@ export default function CustomButton({
 }: CustomButtonProps) {
   return (
     <Button
-      className="custom_btn"
+      className={`custom_positive_btn ${
+        text === "Go Back" ? "custom_negative_btn" : ""
+      }`}
       endIcon={icon ? <div className="btn_icon_container">{icon}</div> : null}
       onClick={onClick}
     >

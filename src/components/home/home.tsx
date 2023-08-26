@@ -1,78 +1,3 @@
-// import React from "react";
-// import { useNavigate } from "react-router-dom";
-// import { Grid, Typography } from "@mui/material";
-// import CustomButton from "../button/Button";
-// import ProjectCard from "../project_card/ProjectCard";
-
-// import "./Home.css";
-
-// type ProjectData = {
-//   name: string;
-//   updatedDate: string;
-//   completion: string;
-// };
-
-// type HomeProps = {
-//   data: ProjectData[];
-// };
-
-// export default function Home() {
-//   // export default function Home({ data }: HomeProps) {
-//   const navigate = useNavigate();
-
-//   const handleAddProjectClick = () => {
-//     navigate("/createproject");
-//   };
-//   return (
-//     <>
-//       <Grid
-//         container
-//         justifyContent="space-between"
-//         alignItems="center"
-//         className="home_title"
-//       >
-//         <Grid item>
-//           <Typography variant="h5">Projects:</Typography>
-//         </Grid>
-//         <Grid item>
-//           <CustomButton text="Add Project" onClick={handleAddProjectClick} />
-//         </Grid>
-//       </Grid>
-
-//       <Grid container spacing={2} className="home_grid">
-//         <Grid item xs={12}>
-//           <Typography variant="body1" align="center">
-//             No projects found
-//           </Typography>
-//         </Grid>
-
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//         <Grid item xs={12} sm={6} md={4}>
-//           <ProjectCard />
-//         </Grid>
-//       </Grid>
-//       </>
-//     );
-//   }
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
@@ -108,7 +33,7 @@ export default function Home({ data }: HomeProps) {
         paddingBottom={2}
       >
         <Grid item>
-          <Typography variant="h5">Projects:</Typography>
+          <Typography variant="h1">Projects:</Typography>
         </Grid>
         <Grid item>
           <div className="btn_container">
