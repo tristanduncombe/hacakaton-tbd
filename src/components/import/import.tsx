@@ -8,11 +8,12 @@ export default function Import() {
     const handleFileSelect = (event: any) => {
         const file = event.target.files[0];
         console.log(file);
+        console.log(file.name);
+        console.log(file.type);
         PapaParse.parse(file, {
             header: true,
             complete: (results: any) => {
             console.log(results.data); // This is the JSON object
-
             const fileData = JSON.stringify(results.data); 
             const blob = new Blob([fileData], { type: "text/plain" }); 
             const url = URL.createObjectURL(blob); 
