@@ -138,7 +138,10 @@ export default function CreateProject() {
 
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <CustomButton text="Go Back" onClick={prevPage} negative />
-        <CustomButton text="Continue" onClick={nextPage} />
+        <CustomButton
+          text="Continue"
+          onClick={() => navigate("/createproject/import")}
+        />
       </div>
     </React.Fragment>
   );

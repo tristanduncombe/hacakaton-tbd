@@ -57,7 +57,7 @@ returnedTeams = {
 */
 function groupTeams(teams: any) {
     let gradeLetter = 'A';
-    let returnTeams = {
+    const returnTeams = {
         "Team Category": teams['Team Category'],
         "Team Type": teams['Team Type'],
         "grades":
@@ -66,10 +66,10 @@ function groupTeams(teams: any) {
 
     const chunkSize = 4;
     for (let i = 0; i < teams['teams'].length; i += chunkSize) {
-        let grade = {"grade": gradeLetter,
+        const grade = {"grade": gradeLetter,
             "teams": [] as Array<any>
         };
-        var chunk = teams['teams'].slice(i, i + chunkSize);
+        const chunk = teams['teams'].slice(i, i + chunkSize);
         grade['teams'] = grade['teams'].concat(chunk);
 
         returnTeams['grades'].push(grade);

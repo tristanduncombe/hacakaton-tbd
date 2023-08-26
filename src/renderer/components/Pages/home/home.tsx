@@ -4,7 +4,7 @@ import { gradeGen } from "../../Common/dataGen";
 import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
 import CustomButton from "../../Common/button/Button";
-import ProjectCard from "../project_card/ProjectCard";
+import ProjectCard from "../Project Card/ProjectCard";
 import AddIcon from "@mui/icons-material/Add";
 
 export type HomeProps = {
