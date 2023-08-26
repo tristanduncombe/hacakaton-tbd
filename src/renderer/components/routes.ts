@@ -1,10 +1,10 @@
 // pages
-import CreateProject from "./components/create_project/CreateProject";
-import Home from "./components/home/home";
-import { HomeProps } from "./components/home/home";
+import CreateProject from "./Pages/create_project/CreateProject";
+import Home from "./Pages/home/home";
+import { HomeProps } from "./Pages/home/home";
 import { FC } from "react";
 
-export interface Route<T = {}> {
+export interface Route<T = Record<string, unknown>> {
   key: string;
   title: string;
   path: string;

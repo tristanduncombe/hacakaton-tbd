@@ -1,6 +1,4 @@
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import React, { useState } from "react";
 import { Fab, TextField } from "@mui/material";
@@ -36,10 +34,10 @@ export default function CreateProject() {
     setRows(newRows);
   };
 
-  function setValue(newValue: any): void {
-    throw new Error("Function not implemented.");
-  }
-  console.log(rows);
+  // function setValue(newValue: any): void {
+  //   throw new Error("Function not implemented.");
+  // }
+
   return (
     <React.Fragment>
       <div> Australian Polo X Association </div>
