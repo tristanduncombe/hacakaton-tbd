@@ -93,11 +93,11 @@ export default function ProjectCard({ data, onDelete }: ProjectCardProps) {
         onClose={handleSettingsClose}
         anchorOrigin={{
           vertical: "bottom",
-          horizontal: "center",
+          horizontal: "left",
         }}
         transformOrigin={{
           vertical: "top",
-          horizontal: "center",
+          horizontal: "left",
         }}
       >
         <Typography variant="body2" sx={{ p: 2 }} onClick={handleDeleteClick}>
