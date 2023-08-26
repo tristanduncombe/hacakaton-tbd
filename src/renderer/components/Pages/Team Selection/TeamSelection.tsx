@@ -1,3 +1,4 @@
+import { writeFile } from "fs/promises";
 import React, { useState, useEffect } from "react";
 import {
   AppBar,
@@ -15,6 +16,7 @@ import {
 } from "@mui/material";
 import SaveIcon from "@mui/icons-material/Save";
 import project from "../../../components/Common/test/testProject.json";
+import { writeFileSync } from "fs";
 
 interface Team {
   "Team Club": string;
@@ -56,6 +58,22 @@ export default function TeamSelection() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  async function handleSave() {
+    // Update the data in the project object
+    // ...
+
+    // Write the updated data to the JSON file asynchronously
+    try {
+      await writeFile(
+        "./path/to/testProject.json",
+        JSON.stringify(project, null, 2),
+      );
+      console.log("Data saved successfully");
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
   return (
     <>
       <AppBar position={isSticky ? "fixed" : "static"}>
@@ -63,7 +81,7 @@ export default function TeamSelection() {
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
             Team Selection
           </Typography>
-          <IconButton color="inherit">
+          <IconButton color="inherit" onClick={handleSave}>
             <SaveIcon />
           </IconButton>
         </Toolbar>
