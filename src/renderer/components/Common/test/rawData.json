@@ -1,0 +1,3111 @@
+{
+    "Teams": [
+        {
+            "Teams List": "Carnival",
+            "__EMPTY": "GOLD COAST"
+        },
+        {
+            "Teams List": "Date",
+            "__EMPTY": "27/05/2023"
+        },
+        {
+            "Teams List": "Team Category:",
+            "__EMPTY": "Adult",
+            "__EMPTY_1": "Team Type:",
+            "Page 1": "Mixed"
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "GUYRA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Guyra mixed 1",
+            "__EMPTY_2": 268
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Sara Hancock",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0437694084"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N213029",
+            "__EMPTY": "Ryle Waugh",
+            "__EMPTY_1": 8,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N123095",
+            "__EMPTY": "Bridget McKemey",
+            "__EMPTY_1": 4.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N211083",
+            "__EMPTY": "Ella Elks",
+            "__EMPTY_1": 7.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N010482",
+            "__EMPTY": "Matthew Grills",
+            "__EMPTY_1": 7.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N012946",
+            "__EMPTY": "Tim Finlayson",
+            "__EMPTY_1": 6.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N211084",
+            "__EMPTY": "Todd Waugh",
+            "__EMPTY_1": 8,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 42
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TARA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Tara 1",
+            "__EMPTY_2": 298
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Christine Neal",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0746659104"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q310000",
+            "__EMPTY": "Amy Gould",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q200135",
+            "__EMPTY": "Lauren Sillitoe",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214855",
+            "__EMPTY": "Sydnee Johnson",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q200136",
+            "__EMPTY": "Chris Sillitoe",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215653",
+            "__EMPTY": "Aaron Sillitoe",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211065",
+            "__EMPTY": "Matthew Johnson (C)",
+            "__EMPTY_1": 8.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 41.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 1",
+            "__EMPTY_2": 278
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q200329",
+            "__EMPTY": "Ella Myers",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215146",
+            "__EMPTY": "KEELY McGrath",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q122689",
+            "__EMPTY": "Emma Piltz",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q213857",
+            "__EMPTY": "Grant Carroll (C)",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211238",
+            "__EMPTY": "Scot McLellan",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200267",
+            "__EMPTY": "Matthew Gleeson",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 41
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TARA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Tara 2",
+            "__EMPTY_2": 300
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Christine Neal",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0746659104"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q215800",
+            "__EMPTY": "Leticia Payten (C)",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q212633",
+            "__EMPTY": "Brodie Stephens",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q411138",
+            "__EMPTY": "Katie Martin",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q211325",
+            "__EMPTY": "Ronald Stephens",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213136",
+            "__EMPTY": "Raymond Sillitoe",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215952",
+            "__EMPTY": "Andrew Williams",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 34
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY MIXED",
+            "__EMPTY_2": 316
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "__EMPTY_1": 0,
+            "__EMPTY_2": "Adult"
+        },
+        {
+            "Teams List": "Q216085",
+            "__EMPTY": "Rachel Wacker",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q300058",
+            "__EMPTY": "Samantha Allen (C)",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q617300",
+            "__EMPTY": "Drew Gurney",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q613205",
+            "__EMPTY": "Daniel Blyth",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216249",
+            "__EMPTY": "Declan ORourke",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 28.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "GUYRA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Guyra 2",
+            "__EMPTY_2": 321
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Sara Hancock",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0437694084"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N123094",
+            "__EMPTY": "Claudia McKemey",
+            "__EMPTY_1": 5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "Teams List": "N123079",
+            "__EMPTY": "Zac Finlayson",
+            "__EMPTY_1": 5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N012798",
+            "__EMPTY": "Sam Finlayson",
+            "__EMPTY_1": 6.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N200162",
+            "__EMPTY": "Max Johnstone",
+            "__EMPTY_1": 5.5,
+            "Page 1": "GUYRA",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 22
+        },
+        {
+            "Teams List": "Team Category:",
+            "__EMPTY": "Adult",
+            "__EMPTY_1": "Team Type:",
+            "Page 1": "Open"
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 1",
+            "__EMPTY_2": 309
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "V411907",
+            "__EMPTY": "Elliott Avis",
+            "__EMPTY_1": 8.5,
+            "Page 1": "MOOROODUC",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q212885",
+            "__EMPTY": "Tom ONeill",
+            "__EMPTY_1": 9,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214277",
+            "__EMPTY": "Beth Hafey",
+            "__EMPTY_1": 8.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q211211",
+            "__EMPTY": "Trent Collins (C)",
+            "__EMPTY_1": 10,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211020",
+            "__EMPTY": "Stuart Shepherd",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211046",
+            "__EMPTY": "Justin Hafey",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 50
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 1",
+            "__EMPTY_2": 274
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q214548",
+            "__EMPTY": "Callum Brook (C)",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200300",
+            "__EMPTY": "Dane Myers",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211633",
+            "__EMPTY": "Russell Owens",
+            "__EMPTY_1": 8.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211053",
+            "__EMPTY": "Cameron Shepherd",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211632",
+            "__EMPTY": "Allan Owens",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216093",
+            "__EMPTY": "Craig Cameron",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 45.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "INVERELL",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Inverell 1",
+            "__EMPTY_2": 293
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Bailey Woodward",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0459901855"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N010478",
+            "__EMPTY": "Brett Woodward",
+            "__EMPTY_1": 7.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N124351",
+            "__EMPTY": "Cameron Neville",
+            "__EMPTY_1": 6.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N011297",
+            "__EMPTY": "Darcy Brennan",
+            "__EMPTY_1": 6.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N012855",
+            "__EMPTY": "Alec Grills",
+            "__EMPTY_1": 6.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N011296",
+            "__EMPTY": "Lachlan Brennan",
+            "__EMPTY_1": 6,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N012151",
+            "__EMPTY": "Thomas OBrien",
+            "__EMPTY_1": 7.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 40.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 2",
+            "__EMPTY_2": 275
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q213041",
+            "__EMPTY": "Anthony Wells",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213908",
+            "__EMPTY": "Sophie Wells",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q213916",
+            "__EMPTY": "Kris Lynas",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211049",
+            "__EMPTY": "Paul McGrath (C)",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q212774",
+            "__EMPTY": "Katie Owens",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216196",
+            "__EMPTY": "Carl Wade",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 37.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "KILLARNEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Killarney 1",
+            "__EMPTY_2": 296
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Colin Bloomfield",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412754807"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216035",
+            "__EMPTY": "Daniel Oleary (C)",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216526",
+            "__EMPTY": "Mitchell Hearn",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q217191",
+            "__EMPTY": "Luke Oleary",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q212689",
+            "__EMPTY": "Brenden Dawson",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216052",
+            "__EMPTY": "Michael Oleary",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213208",
+            "__EMPTY": "Anthony OLeary",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 35
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WANDOAN",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Wandoan",
+            "__EMPTY_2": 292
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Stacey Bowden",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0407711209"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q211157",
+            "__EMPTY": "Michael Dillon (C)",
+            "__EMPTY_1": 8,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214059",
+            "__EMPTY": "Holly Dillon",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214539",
+            "__EMPTY": "Geoff Bowden",
+            "__EMPTY_1": 7,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214540",
+            "__EMPTY": "Stacey Bowden",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q212299",
+            "__EMPTY": "Catherine Trail",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q211063",
+            "__EMPTY": "David Trail",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 33
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "INVERELL",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Inverell 2",
+            "__EMPTY_2": 294
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Bailey Woodward",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0459901855"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N514229",
+            "__EMPTY": "Benjamin Guest",
+            "__EMPTY_1": 6,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N124550",
+            "__EMPTY": "Bailey Woodward",
+            "__EMPTY_1": 3,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N010491",
+            "__EMPTY": "Fraser Hughes",
+            "__EMPTY_1": 5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N214569",
+            "__EMPTY": "Emily Gentry",
+            "__EMPTY_1": 5.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N214568",
+            "__EMPTY": "Georgia Gentry",
+            "__EMPTY_1": 4.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N010775",
+            "__EMPTY": "Josh Berry",
+            "__EMPTY_1": 5.5,
+            "Page 1": "INVERELL",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 29.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CHINCHILLA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Chinchilla",
+            "__EMPTY_2": 299
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Rebecca Sturgess",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0428689513"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216166",
+            "__EMPTY": "Connor OSullivan",
+            "__EMPTY_1": 7.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211765",
+            "__EMPTY": "Michael Shaw",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214352",
+            "__EMPTY": "Lily Bredhauer",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214351",
+            "__EMPTY": "Thomas Bredhauer",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216612",
+            "__EMPTY": "Haydon Fisher",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q212154",
+            "__EMPTY": "James Bredhauer (C)",
+            "__EMPTY_1": 6.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 28
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 2",
+            "__EMPTY_2": 310
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q213912",
+            "__EMPTY": "Emma Hafey",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216111",
+            "__EMPTY": "Beth Shepherd",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215075",
+            "__EMPTY": "Laura Hafey (C)",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q200114",
+            "__EMPTY": "Dakota Collins",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214591",
+            "__EMPTY": "Franklin Bettridge",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215105",
+            "__EMPTY": "Tegan Lamb",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 27.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CUNNINGHAM",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Cunningham 1",
+            "__EMPTY_2": 282
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Kate Lund",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412617599"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q214273",
+            "__EMPTY": "Billie Dixon-Craninckx",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215039",
+            "__EMPTY": "Craig Belford",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214305",
+            "__EMPTY": "Trent Brickley",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216821",
+            "__EMPTY": "Jane Howes (C)",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215920",
+            "__EMPTY": "Meegan Syme",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216104",
+            "__EMPTY": "Elizah Feltham",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 24
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 3",
+            "__EMPTY_2": 276
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q211050",
+            "__EMPTY": "Ross Shepherd",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211052",
+            "__EMPTY": "Alicia Shepherd (C)",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216175",
+            "__EMPTY": "Annabelle Gleeson",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216174",
+            "__EMPTY": "Madeline Gleeson",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215855",
+            "__EMPTY": "John Oleary",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211058",
+            "__EMPTY": "Anita Shepherd",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 23
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CUNNINGHAM",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Cunningham 2",
+            "__EMPTY_2": 283
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Kate Lund",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412617599"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216103",
+            "__EMPTY": "Charles Lund",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q212665",
+            "__EMPTY": "Paul Moody (C)",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215173",
+            "__EMPTY": "Belinda Butterfield",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216923",
+            "__EMPTY": "Riley Mauch",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213669",
+            "__EMPTY": "Sophie Forster",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q211092",
+            "__EMPTY": "Bill Kerr",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 23
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "COFFS HARBOUR",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "coffs",
+            "__EMPTY_2": 269
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Megan Mackay",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0419249291"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N010434",
+            "__EMPTY": "Kye Moran",
+            "__EMPTY_1": 6.5,
+            "Page 1": "COFFS HARBOUR",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N124083",
+            "__EMPTY": "Emma Clayden",
+            "__EMPTY_1": 1,
+            "Page 1": "COFFS HARBOUR",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N123858",
+            "__EMPTY": "Kate Connors",
+            "__EMPTY_1": 5,
+            "Page 1": "COFFS HARBOUR",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N010437",
+            "__EMPTY": "Sharnie Moran",
+            "__EMPTY_1": 5.5,
+            "Page 1": "COFFS HARBOUR",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N124084",
+            "__EMPTY": "Megan Mackay",
+            "__EMPTY_1": 4.5,
+            "Page 1": "COFFS HARBOUR",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 22.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 4",
+            "__EMPTY_2": 313
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q214854",
+            "__EMPTY": "BJ Gentry (C)",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215950",
+            "__EMPTY": "Guss McMaster",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q613216",
+            "__EMPTY": "Donna Gurney",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q212899",
+            "__EMPTY": "David Marshall",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216248",
+            "__EMPTY": "Erin Orourke",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q212688",
+            "__EMPTY": "Bruce Johnson",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 20.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CUNNINGHAM",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Cunningham 3",
+            "__EMPTY_2": 284
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Kate Lund",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412617599"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q217138",
+            "__EMPTY": "Shaun Kelly (C)",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q211102",
+            "__EMPTY": "Melissa Kerr",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215892",
+            "__EMPTY": "Emily Stickler",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q122666",
+            "__EMPTY": "Lauren Morton",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214226",
+            "__EMPTY": "Cameron Byrne",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215896",
+            "__EMPTY": "Warwick Murnane",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 20.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "STANLEY RIVERS",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Stanley Rivers",
+            "__EMPTY_2": 270
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Clay Colless",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0754261752"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q211697",
+            "__EMPTY": "Clay Colless (C)",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214806",
+            "__EMPTY": "Susanne (Susie) Smith",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q212664",
+            "__EMPTY": "John Colless",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213659",
+            "__EMPTY": "Debbie Cooper",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216313",
+            "__EMPTY": "Janelle Weir",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214549",
+            "__EMPTY": "Paul Pritchard",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 20
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 3",
+            "__EMPTY_2": 311
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q100281",
+            "__EMPTY": "Jack Hamilton (C)",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216492",
+            "__EMPTY": "Oliver Watson",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216212",
+            "__EMPTY": "Shaun O Rourke",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200302",
+            "__EMPTY": "Wyatt McMaster",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216476",
+            "__EMPTY": "Ryan Baxter",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216531",
+            "__EMPTY": "Jason Gillett",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 19.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "KILLARNEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Killarney 2",
+            "__EMPTY_2": 305
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Colin Bloomfield",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412754807"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q215320",
+            "__EMPTY": "Corey Perren",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216524",
+            "__EMPTY": "Fredie O’Leary",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216706",
+            "__EMPTY": "Lesleigh Vincent",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215993",
+            "__EMPTY": "Henry Ellison",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q213686",
+            "__EMPTY": "Amber Perren",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216927",
+            "__EMPTY": "Heather Cutts (C)",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 19
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 5",
+            "__EMPTY_2": 314
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216194",
+            "__EMPTY": "Chloe Frear",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215046",
+            "__EMPTY": "Mia-Rose Cooper",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q211894",
+            "__EMPTY": "Sarah Owens (C)",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216490",
+            "__EMPTY": "Thomas Tornabene",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216877",
+            "__EMPTY": "Ella Watson",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216719",
+            "__EMPTY": "Emma Wostear",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 17.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "GRAFTON",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Grafton 1",
+            "__EMPTY_2": 280
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Vicki Grant",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "#0438761571"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "N010211",
+            "__EMPTY": "Jaeben Loy",
+            "__EMPTY_1": 4.5,
+            "Page 1": "GRAFTON",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N124058",
+            "__EMPTY": "Jason Connors",
+            "__EMPTY_1": 2,
+            "Page 1": "GRAFTON",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "N100310",
+            "__EMPTY": "Ella Grimmond",
+            "__EMPTY_1": 2,
+            "Page 1": "GRAFTON",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "Teams List": "N124642",
+            "__EMPTY": "Rebecca Donnelly",
+            "__EMPTY_1": 4.5,
+            "Page 1": "GRAFTON",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "N124479",
+            "__EMPTY": "Allysha Stewart",
+            "__EMPTY_1": 2,
+            "Page 1": "GRAFTON",
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 15
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 4",
+            "__EMPTY_2": 277
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q214550",
+            "__EMPTY": "Monique Hoare (C)",
+            "__EMPTY_1": 6,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216547",
+            "__EMPTY": "Kristi Hayes",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214022",
+            "__EMPTY": "Deanne McLellan",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q217229",
+            "__EMPTY": "Scott Carpenter Jnr",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 14.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CUNNINGHAM",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Cunningham 4",
+            "__EMPTY_2": 285
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Kate Lund",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412617599"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216962",
+            "__EMPTY": "Scott Suter",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214162",
+            "__EMPTY": "Martine Griffiths",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q215171",
+            "__EMPTY": "Kristie Kelleway",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216736",
+            "__EMPTY": "Andrew Hopgood (C)",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q217164",
+            "__EMPTY": "Dylan Suter",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q215637",
+            "__EMPTY": "Michael Forster",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 14
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "KILLARNEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Killarney 3",
+            "__EMPTY_2": 297
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Colin Bloomfield",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412754807"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q215995",
+            "__EMPTY": "Darcy Ellison",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216968",
+            "__EMPTY": "Mitchell Gillece",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216870",
+            "__EMPTY": "Mckenzie Gillece",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216527",
+            "__EMPTY": "Alex Nixon (C)",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q217169",
+            "__EMPTY": "Tilly Gillece",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q412199",
+            "__EMPTY": "Emily Forbes",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 13
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "CUNNINGHAM",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Cunningham 5",
+            "__EMPTY_2": 286
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Kate Lund",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0412617599"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216931",
+            "__EMPTY": "Christopher Howes",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200226",
+            "__EMPTY": "Grant Sakrewski",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200260",
+            "__EMPTY": "Robert Slack-smith",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q200316",
+            "__EMPTY": "Amanda Lund",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216997",
+            "__EMPTY": "Georgia Moody (C)",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q214776",
+            "__EMPTY": "Terri McDonald",
+            "__EMPTY_1": 2.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 11.5
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TARA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Tara 3",
+            "__EMPTY_2": 301
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Christine Neal",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0746659104"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q212418",
+            "__EMPTY": "Peter Johnson (C)",
+            "__EMPTY_1": 4,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216966",
+            "__EMPTY": "David Osullivan",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216494",
+            "__EMPTY": "Adam Brice",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 10
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TANSEY",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "TANSEY 6",
+            "__EMPTY_2": 315
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lyndal Hafey",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0408687170"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q215756",
+            "__EMPTY": "Brian Paterson (C)",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q214285",
+            "__EMPTY": "Shane Lamb",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216477",
+            "__EMPTY": "Mathew Baxter",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "Adult",
+            "__EMPTY_3": "m"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 8.5
+        },
+        {
+            "Teams List": "Team Category:",
+            "__EMPTY": "Junior",
+            "__EMPTY_1": "Team Type:",
+            "Page 1": "Open"
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "WARWICK",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Warwick 1",
+            "__EMPTY_2": 279
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Lea-Anne Geppert",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0427306747"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216699",
+            "__EMPTY": "Edward Gleeson",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216864",
+            "__EMPTY": "Piper Mortimer",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216235",
+            "__EMPTY": "Holly Shepherd (C)",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216756",
+            "__EMPTY": "Hugh OLeary",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216582",
+            "__EMPTY": "Cooper Leak",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216757",
+            "__EMPTY": "Ellie OLeary",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 11
+        },
+        {
+            "Teams List": "Team Club:",
+            "__EMPTY": "TARA",
+            "__EMPTY_1": "Team Name:",
+            "Page 1": "Tara 1",
+            "__EMPTY_2": 302
+        },
+        {
+            "Teams List": "Contact:",
+            "__EMPTY": "Christine Neal",
+            "__EMPTY_1": "Phone:",
+            "Page 1": "# 0746659104"
+        },
+        {
+            "Teams List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "Page 1": "Club"
+        },
+        {
+            "Teams List": "Q216745",
+            "__EMPTY": "Heath Johnson (C)",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216498",
+            "__EMPTY": "Baxter Brice",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216497",
+            "__EMPTY": "Eli Brice",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "m"
+        },
+        {
+            "Teams List": "Q216978",
+            "__EMPTY": "Georgia Wills",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "f"
+        },
+        {
+            "Teams List": "Q216820",
+            "__EMPTY": "Imogen Gillett",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "Junior",
+            "__EMPTY_3": "f"
+        },
+        {
+            "__EMPTY": "Player Required"
+        },
+        {
+            "__EMPTY": "Team Total:",
+            "__EMPTY_1": 5
+        }
+    ],
+    "Pool Players": [
+        {
+            "Pool Players List": "Carnival",
+            "__EMPTY": "GOLD COAST"
+        },
+        {
+            "Pool Players List": "Date",
+            "__EMPTY": "27/05/2023"
+        },
+        {
+            "Pool Players List": "Mem No",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Pts",
+            "__EMPTY_2": "Club",
+            "__EMPTY_3": "Category",
+            "__EMPTY_4": "Sex",
+            "__EMPTY_5": "G/H"
+        },
+        {
+            "Pool Players List": "Q211471",
+            "__EMPTY": "Mike Williams",
+            "__EMPTY_1": 5.5,
+            "__EMPTY_2": "CLIFTON",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q010229",
+            "__EMPTY": "Ben Sykes",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "ROMA",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q216108",
+            "__EMPTY": "Richard Stickler",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "CUNNINGHAM",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q216712",
+            "__EMPTY": "Julie Stephenson",
+            "__EMPTY_1": 1.5,
+            "__EMPTY_2": "STANLEY RIVERS",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q100311",
+            "__EMPTY": "Marcus Sykes",
+            "__EMPTY_1": 4.5,
+            "__EMPTY_2": "ROMA",
+            "__EMPTY_3": "JUNIOR",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q216831",
+            "__EMPTY": "Michael Mcmaster",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "TANSEY",
+            "__EMPTY_3": "SUB JUNIOR",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q216253",
+            "__EMPTY": "Jonty Frear",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "TANSEY",
+            "__EMPTY_3": "SUB JUNIOR",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "Q216186",
+            "__EMPTY": "Charlie Schnitzerling",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "CUNNINGHAM",
+            "__EMPTY_3": "SUB JUNIOR",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N123643",
+            "__EMPTY": "William Parker",
+            "__EMPTY_1": 5,
+            "__EMPTY_2": "QUIRINDI",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N123038",
+            "__EMPTY": "Kevin Donnelly",
+            "__EMPTY_1": 3.5,
+            "__EMPTY_2": "MACKSVILLE",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N124854",
+            "__EMPTY": "Jerome Hayden",
+            "__EMPTY_1": 1,
+            "__EMPTY_2": "INVERELL",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "m",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N123505",
+            "__EMPTY": "Lucy Grills",
+            "__EMPTY_1": 8.5,
+            "__EMPTY_2": "ALBURY / HOLBROOK",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N123037",
+            "__EMPTY": "Sue Donnelly",
+            "__EMPTY_1": 3,
+            "__EMPTY_2": "MACKSVILLE",
+            "__EMPTY_3": "Adult",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N124666",
+            "__EMPTY": "Shayna Stewart",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "GRAFTON",
+            "__EMPTY_3": "JUNIOR",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N124615",
+            "__EMPTY": "Matise Barnhart",
+            "__EMPTY_1": 2,
+            "__EMPTY_2": "GRAFTON",
+            "__EMPTY_3": "JUNIOR",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        },
+        {
+            "Pool Players List": "N125098",
+            "__EMPTY": "Ava Mackay",
+            "__EMPTY_1": 0.5,
+            "__EMPTY_2": "COFFS HARBOUR",
+            "__EMPTY_3": "SUB JUNIOR",
+            "__EMPTY_4": "f",
+            "__EMPTY_5": "No"
+        }
+    ],
+    "Umpires": [
+        {
+            "Umpires List": "Carnival",
+            "__EMPTY": "GOLD COAST"
+        },
+        {
+            "Umpires List": "Date",
+            "__EMPTY": "27/05/2023"
+        },
+        {
+            "Umpires List": "Team",
+            "__EMPTY": "Name",
+            "__EMPTY_1": "Grade"
+        },
+        {
+            "Umpires List": "Chinchilla",
+            "__EMPTY": "James Bredhauer",
+            "__EMPTY_1": "N"
+        },
+        {
+            "Umpires List": "Chinchilla",
+            "__EMPTY": "Michael Shaw",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Cunningham 1",
+            "__EMPTY": "Billie Dixon-Craninckx",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 1",
+            "__EMPTY": "Craig Belford",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 1",
+            "__EMPTY": "Elizah Feltham",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 1",
+            "__EMPTY": "Meegan Syme",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Cunningham 1",
+            "__EMPTY": "Trent Brickley",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Cunningham 2",
+            "__EMPTY": "Belinda Butterfield",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 2",
+            "__EMPTY": "Charles Lund",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 2",
+            "__EMPTY": "Sophie Forster",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Cunningham 3",
+            "__EMPTY": "Cameron Byrne",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Cunningham 3",
+            "__EMPTY": "Emily Stickler",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 3",
+            "__EMPTY": "Warwick Murnane",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Cunningham 4",
+            "__EMPTY": "Kristie Kelleway",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Grafton 1",
+            "__EMPTY": "Jaeben Loy",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Grafton 1",
+            "__EMPTY": "Jaeben Loy",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Guyra 2",
+            "__EMPTY": "Claudia McKemey",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Guyra 2",
+            "__EMPTY": "Claudia McKemey",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Guyra 2",
+            "__EMPTY": "Sam Finlayson",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Guyra 2",
+            "__EMPTY": "Sam Finlayson",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Ella Elks",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Ella Elks",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Matthew Grills",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Matthew Grills",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Ryle Waugh",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Ryle Waugh",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Tim Finlayson",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Tim Finlayson",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Todd Waugh",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Guyra mixed 1",
+            "__EMPTY": "Todd Waugh",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Alec Grills",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Alec Grills",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Brett Woodward",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Brett Woodward",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Cameron Neville",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Cameron Neville",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Darcy Brennan",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Darcy Brennan",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Lachlan Brennan",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Lachlan Brennan",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Thomas OBrien",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 1",
+            "__EMPTY": "Thomas OBrien",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Bailey Woodward",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Bailey Woodward",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Benjamin Guest",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Benjamin Guest",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Emily Gentry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Emily Gentry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Fraser Hughes",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Fraser Hughes",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Georgia Gentry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Georgia Gentry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Josh Berry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Inverell 2",
+            "__EMPTY": "Josh Berry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Killarney 1",
+            "__EMPTY": "Anthony OLeary",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Killarney 1",
+            "__EMPTY": "Brenden Dawson",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Killarney 1",
+            "__EMPTY": "Daniel Oleary",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Killarney 1",
+            "__EMPTY": "Michael Oleary",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Killarney 1",
+            "__EMPTY": "Mitchell Hearn",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Killarney 2",
+            "__EMPTY": "Corey Perren",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "Ben Sykes",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "Jerome Hayden",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "Lucy Grills",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "Mike Williams",
+            "__EMPTY_1": "N"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "Sue Donnelly",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Pool Player",
+            "__EMPTY": "William Parker",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Stanley Rivers",
+            "__EMPTY": "Clay Colless",
+            "__EMPTY_1": "N"
+        },
+        {
+            "Umpires List": "Stanley Rivers",
+            "__EMPTY": "Janelle Weir",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Stanley Rivers",
+            "__EMPTY": "John Colless",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Stanley Rivers",
+            "__EMPTY": "Paul Pritchard",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Stanley Rivers",
+            "__EMPTY": "Susanne (Susie) Smith",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Beth Hafey",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Elliott Avis",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Justin Hafey",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Stuart Shepherd",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Tom ONeill",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "TANSEY 1",
+            "__EMPTY": "Trent Collins",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "TANSEY 2",
+            "__EMPTY": "Emma Hafey",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 2",
+            "__EMPTY": "Franklin Bettridge",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 2",
+            "__EMPTY": "Laura Hafey",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 2",
+            "__EMPTY": "Tegan Lamb",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 3",
+            "__EMPTY": "Jack Hamilton",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 3",
+            "__EMPTY": "Jason Gillett",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 3",
+            "__EMPTY": "Shaun O Rourke",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 3",
+            "__EMPTY": "Wyatt McMaster",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 4",
+            "__EMPTY": "BJ Gentry",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 4",
+            "__EMPTY": "Bruce Johnson",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 4",
+            "__EMPTY": "David Marshall",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 4",
+            "__EMPTY": "Donna Gurney",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 4",
+            "__EMPTY": "Erin Orourke",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 5",
+            "__EMPTY": "Chloe Frear",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 5",
+            "__EMPTY": "Emma Wostear",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY 5",
+            "__EMPTY": "Sarah Owens",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY 6",
+            "__EMPTY": "Shane Lamb",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY MIXED",
+            "__EMPTY": "Daniel Blyth",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY MIXED",
+            "__EMPTY": "Declan ORourke",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "TANSEY MIXED",
+            "__EMPTY": "Drew Gurney",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "TANSEY MIXED",
+            "__EMPTY": "Rachel Wacker",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "TANSEY MIXED",
+            "__EMPTY": "Samantha Allen",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Aaron Sillitoe",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Amy Gould",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Chris Sillitoe",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Lauren Sillitoe",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Matthew Johnson",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Tara 1",
+            "__EMPTY": "Sydnee Johnson",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Tara 2",
+            "__EMPTY": "Andrew Williams",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 2",
+            "__EMPTY": "Brodie Stephens",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 2",
+            "__EMPTY": "Katie Martin",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 2",
+            "__EMPTY": "Leticia Payten",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Tara 2",
+            "__EMPTY": "Ronald Stephens",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Tara 3",
+            "__EMPTY": "David Osullivan",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Tara 3",
+            "__EMPTY": "Peter Johnson",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Wandoan",
+            "__EMPTY": "David Trail",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Wandoan",
+            "__EMPTY": "Geoff Bowden",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Wandoan",
+            "__EMPTY": "Michael Dillon",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Wandoan",
+            "__EMPTY": "Stacey Bowden",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Allan Owens",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Callum Brook",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Cameron Shepherd",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Craig Cameron",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Dane Myers",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Ella Myers",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Emma Piltz",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Grant Carroll",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "KEELY McGrath",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Matthew Gleeson",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Russell Owens",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Warwick 1",
+            "__EMPTY": "Scot McLellan",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Anthony Wells",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Carl Wade",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Katie Owens",
+            "__EMPTY_1": "A"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Kris Lynas",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Paul McGrath",
+            "__EMPTY_1": "N"
+        },
+        {
+            "Umpires List": "Warwick 2",
+            "__EMPTY": "Sophie Wells",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 3",
+            "__EMPTY": "John Oleary",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "Warwick 3",
+            "__EMPTY": "Madeline Gleeson",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Warwick 3",
+            "__EMPTY": "Ross Shepherd",
+            "__EMPTY_1": "S"
+        },
+        {
+            "Umpires List": "Warwick 4",
+            "__EMPTY": "Deanne McLellan",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "Warwick 4",
+            "__EMPTY": "Monique Hoare",
+            "__EMPTY_1": "P"
+        },
+        {
+            "Umpires List": "coffs",
+            "__EMPTY": "Kye Moran",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "coffs",
+            "__EMPTY": "Kye Moran",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "coffs",
+            "__EMPTY": "Sharnie Moran",
+            "__EMPTY_1": "B"
+        },
+        {
+            "Umpires List": "coffs",
+            "__EMPTY": "Sharnie Moran",
+            "__EMPTY_1": "B"
+        }
+    ]
+}
