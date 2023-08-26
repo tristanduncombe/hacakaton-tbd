@@ -14,7 +14,7 @@ export default function Import() {
   // Get you data from last file
   const location = useLocation();
   const projInfo = location.state;
-  console.log(projInfo);
+  // console.log(projInfo);
   // projInfo.projDate
   //projInfo.projName
   //projInfo.projRows
@@ -52,7 +52,34 @@ export default function Import() {
        
         });
         let formattedData = formatRawData(rawJsonObjects);
-        //console.log(formattedData);
+
+        let timestamp = Date.now();
+        let date = new Date(timestamp);
+        let convertedDate = convertTZ(date, "Australia/Brisbane");
+
+        let project = {
+          "File Info": {
+            "Project Name": projInfo.projName,
+            "Created Date": convertedDate,
+            "Last Updates": null,
+            "Project Location": null
+          },
+          "Competition Info": {
+            "Competition Name": projInfo.projName,
+          },
+          "data": {
+            "teams": formattedData['Teams'],
+            "umpires": formattedData['Umpires'],
+            "fields": projInfo.projRows,
+            "pool players": formattedData['Pool Players']
+          }
+        }
+
+        /*
+        JAEWONNNNNN LOOOK HERE!!!!!!!!!!!!!!
+        project is the JSON file
+        */
+        console.log(project);
         
       };
       reader.readAsArrayBuffer(file);
@@ -99,3 +126,9 @@ export default function Import() {
     </div>
   );
 }
+
+function convertTZ(date: Date, tzString: string) {
+  return new Date((typeof date === "string" ? new Date(date) : date).toLocaleString("en-AU", {timeZone: tzString}));
+}
+
+
