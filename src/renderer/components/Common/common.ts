@@ -29,3 +29,21 @@ export function getDocumentsPath(): string {
   const homeDir = os.homedir();
   return path.join(homeDir, "Documents");
 }
+
+export function deleteFile(path: string) {
+  fs.access(path, fs.constants.F_OK, (err) => {
+    if (err) {
+      console.error(`${path} does not exist`);
+      return;
+    }
+
+    fs.unlink(path, (err) => {
+      if (err) {
+        console.error(`Error deleting ${path}: ${err}`);
+        return;
+      }
+
+      console.log(`${path} deleted successfully`);
+    });
+  });
+}
