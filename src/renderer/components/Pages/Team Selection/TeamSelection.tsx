@@ -73,12 +73,7 @@ function TeamSelection() {
       <Grid item xs={12}>
         <Typography variant="h1">Team Selection</Typography>
         <SaveIcon onClick={handleSave} />
-        <CustomButton
-          text="next"
-          onClick={() =>
-            navigate("/createproject/import/teamselection/finaldraw")
-          }
-        />
+        <CustomButton text="next" onClick={() => navigate("/finaldraw")} />
       </Grid>
       <Grid item xs={6}>
         <Select value={teamCategory} onChange={handleCategoryChange}>

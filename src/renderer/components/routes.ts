@@ -39,7 +39,7 @@ export const routes: Array<Route> = [
   {
     key: "finaldraw-route",
     title: "Final Draw",
-    path: "/createproject/teamselection/finalDraw",
+    path: "/finaldraw",
     enabled: true,
     component: FinalDraw,
   },

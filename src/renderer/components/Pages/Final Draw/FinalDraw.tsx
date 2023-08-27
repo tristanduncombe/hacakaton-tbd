@@ -27,9 +27,9 @@ export default function FinalDraw() {
   const navigate = useNavigate();
   //gradeGen();
 
-  const handleAddProjectClick = () => {
-    navigate("/createproject");
-  };
+  // const handleAddProjectClick = () => {
+  //   navigate("/createproject");
+  // };
 
   return (
     <>
@@ -40,14 +40,14 @@ export default function FinalDraw() {
         paddingBottom={2}
       >
         <Grid item>
-          <Typography variant="h1">Projects:</Typography>
+          <Typography variant="h1">Final Draw page:</Typography>
         </Grid>
         <Grid item>
           <div className="btn_container">
             <CustomButton
               text="Add Project"
               icon={<AddIcon />}
-              onClick={handleAddProjectClick}
+              // onClick={handleAddProjectClick}
             />
           </div>
         </Grid>
