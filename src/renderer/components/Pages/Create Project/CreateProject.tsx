@@ -1,14 +1,18 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import React, { useState } from "react";
-import { TextField, Typography } from "@mui/material";
+import React, { useRef, useState } from "react";
+import { Alert, AlertTitle, Paper, TextField, Typography } from "@mui/material";
 import CustomButton from "../../Common/button/Button";
-import { Link, To, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { formatRawData } from "./formatRaw";
+import { read, utils } from "xlsx";
+import { getDocumentsPath, saveFile } from "../../Common/common";
 
 export default function CreateProject() {
   const [date, setDate] = useState();
   const [rows, setRows] = useState([{ rating: "", name: "" }]);
   const [projectName, setProjectName] = useState("");
+  const [compName, setCompName] = useState("");
   const navigate = useNavigate();
 
   const addRow = () => {
@@ -28,30 +32,95 @@ export default function CreateProject() {
     setRows(newRows);
   };
 
-  const nextPage = () => {
-    navigate("/import");
-  };
-
   const prevPage = () => {
     navigate("/");
   };
 
-  function setValue(newValue: any): void {
-    throw new Error("Function not implemented.");
-  }
-
-  function handleNaming(event: any) {
+  function handleProjName(event: any) {
     setProjectName(event.target.value);
   }
 
+  function handleCompName(event: any) {
+    setCompName(event.target.value);
+  }
+
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [result, setResult] = useState("");
+  let csvData: any = {};
+
   const projData = {
-    projName: projectName,
-    projDate: date,
-    projRows: rows,
+    "project-info": {
+      name: projectName,
+      id: projectName.replace(" ", "-") + ".json",
+      description: null,
+      created: Number(new Date()),
+      updated: Number(new Date()),
+      status: "Incomplete",
+    },
+    "competiton-info": {
+      name: compName,
+    },
+    csvData,
+  };
+
+  function saveFinalData() {
+    saveFile(
+      getDocumentsPath() +
+        "/Polocrosse-Draw-Generator/Projects/" +
+        projData["project-info"]?.id,
+      JSON.stringify(projData),
+    );
+  }
+
+  const handleFileSelect = (event: any) => {
+    const file = event.target.files[0];
+
+    const fileName = file.name;
+    const fileExtension = fileName.split(".").pop();
+    const validExtensions = ["xls", "xlsx", "xlsm"];
+
+    if (validExtensions.includes(fileExtension)) {
+      // If the file is an excel file
+      const reader = new FileReader();
+      reader.onload = (e: any) => {
+        const data = e.target.result;
+        const workbook = read(data, { type: "array" });
+        const excelPages = [];
+        const teamSheet = workbook.SheetNames[0];
+        const playerSheet = workbook.SheetNames[1];
+        const umpireSheet = workbook.SheetNames[4];
+        excelPages.push(teamSheet, playerSheet, umpireSheet);
+        const rawJsonObjects: { [page: string]: any } = {};
+
+        excelPages.forEach((page) => {
+          const worksheet = workbook.Sheets[page];
+          const json = utils.sheet_to_json(worksheet);
+          rawJsonObjects[page] = json;
+        });
+
+        const formattedData = formatRawData(rawJsonObjects);
+
+        const project = {
+          data: {
+            teams: formattedData["Teams"],
+            umpires: formattedData["Umpires"],
+            fields: rows,
+            "pool players": formattedData["Pool Players"],
+          },
+        };
+
+        csvData = project;
+      };
+      reader.readAsArrayBuffer(file);
+
+      setResult("success");
+    } else {
+      setResult("error");
+    }
   };
 
   return (
-    <React.Fragment>
+    <Paper sx={{ padding: 4, marginBottom: 0 }}>
       <Grid
         container
         justifyContent="space-between"
@@ -59,7 +128,7 @@ export default function CreateProject() {
         paddingBottom={2}
       >
         <Grid item>
-          <Typography variant="h1"> New Project </Typography>
+          <Typography variant="h1"> Create Project </Typography>
         </Grid>
       </Grid>
       <Box sx={{ width: "80%" }}>
@@ -69,31 +138,36 @@ export default function CreateProject() {
           rowSpacing={1}
           sx={{ backgroundColor: "white" }}
         >
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
-            <p>Competition Name</p>
-          </Grid>
-          <Grid item xs={6} sx={{ backgroundColor: "white" }}>
+          <Grid item xs={12} sx={{ backgroundColor: "white" }}>
+            <p>Plan Name</p>
             <TextField
               id="outlined-basic"
               helperText="Please enter your project name"
               variant="outlined"
               color="secondary"
               focused
-              onChange={handleNaming}
+              onChange={handleProjName}
+            />
+          </Grid>
+          <Grid item xs={12} sx={{ backgroundColor: "white" }}>
+            <p>Competition Name</p>
+            <TextField
+              id="outlined-basic"
+              helperText="Please enter the competition name"
+              variant="outlined"
+              color="secondary"
+              focused
+              onChange={handleCompName}
             />
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12}>
             <p>Date of Event</p>
-          </Grid>
-          <Grid item xs={6}>
             <input type="date" onChange={(e: any) => setDate(e.target.value)} />
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} sx={{ paddingBottom: 2 }}>
             <p>Field Information</p>
-          </Grid>
-          <Grid item xs={6}>
             <table>
               <thead>
                 <tr>
@@ -133,18 +207,56 @@ export default function CreateProject() {
 
             <button onClick={addRow}>Add Row</button>
           </Grid>
+          <Grid item xs={12} sx={{ paddingBottom: 2 }}>
+            <CustomButton
+              text="Import CSV File"
+              onClick={() => {
+                if (inputRef.current) {
+                  // Call the click() method on inputRef.current
+                  inputRef.current.click();
+                }
+              }}
+            />
+            <input
+              type="file"
+              ref={inputRef}
+              onChange={handleFileSelect}
+              style={{ display: "none" }}
+            />
+
+            {result === "error" && (
+              <Alert severity="error">
+                <AlertTitle>Error</AlertTitle> You must select an excel document
+                — <strong>try again!</strong>
+              </Alert>
+            )}
+            {result === "success" && (
+              <Alert severity="success">
+                <AlertTitle>Success</AlertTitle>
+                Successfully read given excel file — <strong>continue!</strong>
+              </Alert>
+            )}
+          </Grid>
         </Grid>
       </Box>
-
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <CustomButton text="Go Back" onClick={prevPage} negative />
         <CustomButton
           text="Continue"
           onClick={() => {
-            navigate("/createproject/import", { state: projData });
+            saveFinalData();
+            navigate("/teamselection");
           }}
         />
       </div>
-    </React.Fragment>
+    </Paper>
+  );
+}
+
+function convertTZ(date: Date, tzString: string) {
+  return new Date(
+    (typeof date === "string" ? new Date(date) : date).toLocaleString("en-AU", {
+      timeZone: tzString,
+    }),
   );
 }

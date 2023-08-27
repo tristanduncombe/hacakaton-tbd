@@ -12,11 +12,13 @@ import { deleteFile, getDocumentsPath } from "../../Common/common";
 
 type ProjectCardProps = {
   data: {
-    name: string;
-    created: number;
-    updated: number;
-    status: string;
-    id: string;
+    "project-info": {
+      name: string;
+      created: number;
+      updated: number;
+      status: string;
+      id: string;
+    };
   };
   onDelete: () => void;
 };
@@ -41,15 +43,18 @@ export default function ProjectCard({ data, onDelete }: ProjectCardProps) {
     <Card>
       <CardContent>
         <Typography variant="h5" component="div">
-          Name: {data.name}
+          Name: {data["project-info"].name}
         </Typography>
         <Typography variant="body2">
-          Created: {new Date(data.created * 1000).toLocaleString()}
+          Created: {new Date(data["project-info"].created).toLocaleString()}
         </Typography>
         <Typography variant="body2">
-          Last Modified: {new Date(data.updated * 1000).toLocaleString()}
+          Last Modified:{" "}
+          {new Date(data["project-info"].updated).toLocaleString()}
         </Typography>
-        <Typography variant="body2">Status: {data.status}</Typography>
+        <Typography variant="body2">
+          Status: {data["project-info"].status}
+        </Typography>
       </CardContent>
       <IconButton aria-label="settings" onClick={handleSettingsClick}>
         <SettingsIcon />
@@ -74,11 +79,11 @@ export default function ProjectCard({ data, onDelete }: ProjectCardProps) {
                 getDocumentsPath() +
                   "/Polocrosse-Draw-Generator/Projects" +
                   "/" +
-                  data.id,
+                  data["project-info"].id,
               )
             }
           >
-            Delete {data.name}
+            Delete {data["project-info"].name}
           </Button>
         </Typography>
       </Popover>

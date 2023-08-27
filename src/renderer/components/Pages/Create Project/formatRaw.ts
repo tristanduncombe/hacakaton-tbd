@@ -77,7 +77,7 @@ function formatTeams(rawObj: any) {
 
 function getMembers(rawObj: any, startIndex: any, headers: any) {
     // Array of objects
-    let members = [] as Array<any>;
+    const members = [] as Array<any>;
     // Object
     let member: {[key: string]: any} = {};
     const headerKeys: Array<any> = Object.values(headers);
