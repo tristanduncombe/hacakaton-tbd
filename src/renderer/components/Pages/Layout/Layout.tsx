@@ -12,9 +12,18 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     <>
       <CssBaseline />
       <Header />
-      <Box sx={{ backgroundColor: "#F5F5FA", width: "100%", marginTop: 4 }}>
+      <Box
+        sx={{
+          backgroundColor: "#F5F5FA",
+          width: "100%",
+          marginTop: 4,
+          marginBottom: 0,
+          minHeight: "88.3vh",
+        }}
+      >
         {children}
       </Box>
+      <Footer />
     </>
   );
 };

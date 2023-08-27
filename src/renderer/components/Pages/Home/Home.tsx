@@ -30,7 +30,7 @@ export default function Home() {
   };
 
   return (
-    <Paper sx={{ padding: 4 }}>
+    <Paper sx={{ padding: 4, marginBottom: 0 }}>
       <Grid
         container
         justifyContent="space-between"
