@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { gradeGen } from "../../Common/dataGen";
 import { useNavigate } from "react-router-dom";
@@ -9,10 +9,11 @@ import AddIcon from "@mui/icons-material/Add";
 import { getFiles, getDocumentsPath, readFile } from "../../Common/common";
 
 export default function Home() {
-  // const styling = {
-  //   topPadding = "16px",
-  // };
   const path = getDocumentsPath() + "/Polocrosse-Draw-Generator/Projects";
+
+  useEffect(() => {
+    console.log(getFiles(path));
+  }, [getFiles(path)]);
 
   const data = getFiles(path).map((file) => {
     return JSON.parse(readFile(path + `/${file}`));
