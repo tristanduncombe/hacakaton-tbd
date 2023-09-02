@@ -23,6 +23,28 @@ type ProjectCardProps = {
   onDelete: () => void;
 };
 
+/**
+ * Renders a card with project information and a settings icon that opens a popover with a delete button.
+ *
+ * @component
+ *
+ * @param {Object} data - An object containing project information, including name, creation date, last modified date, status, and ID.
+ * @param {Function} onDelete - A callback function to be called when the delete button is clicked.
+ *
+ * @example
+ * <ProjectCard
+ *   data={{
+ *     "project-info": {
+ *       name: "Project 1",
+ *       created: 1634567890000,
+ *       updated: 1634567900000,
+ *       status: "Active",
+ *       id: "1234567890"
+ *     }
+ *   }}
+ *   onDelete={() => console.log("Project deleted")}
+ * />
+ */
 export default function ProjectCard({ data, onDelete }: ProjectCardProps) {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 

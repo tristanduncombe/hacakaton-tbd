@@ -7,6 +7,11 @@ import { routes as appRoutes } from "./routes";
 
 import "./App.css";
 
+/**
+ * Renders the main component of the application.
+ *
+ * @returns {JSX.Element} The JSX code that renders the application.
+ */
 function App() {
   // define theme
   const theme = createTheme({

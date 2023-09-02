@@ -8,6 +8,14 @@ import { formatRawData } from "./formatRaw";
 import { read, utils } from "xlsx";
 import { getDocumentsPath, saveFile } from "../../Common/common";
 
+/**
+ * Renders a form for creating a project.
+ *
+ * @returns The rendered form and table for creating a project.
+ *          The ability to add or delete rows in the field information table.
+ *          The ability to import a CSV file and display success or error messages.
+ *          The ability to save the project data to a JSON file and navigate to the "/teamselection" page.
+ */
 export default function CreateProject() {
   const [date, setDate] = useState();
   const [rows, setRows] = useState([{ rating: "", name: "" }]);
@@ -253,6 +261,13 @@ export default function CreateProject() {
   );
 }
 
+/**
+ * Converts a given date to a different time zone.
+ *
+ * @param date - The date to be converted.
+ * @param tzString - The time zone string in the format "Continent/City" (e.g., "America/New_York").
+ * @returns A new `Date` object representing the converted date and time in the specified time zone.
+ */
 function convertTZ(date: Date, tzString: string) {
   return new Date(
     (typeof date === "string" ? new Date(date) : date).toLocaleString("en-AU", {

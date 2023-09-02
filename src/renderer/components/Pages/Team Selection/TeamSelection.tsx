@@ -31,6 +31,15 @@ interface Team {
   }[];
 }
 
+/**
+ * Renders a team selection component.
+ *
+ * This component allows the user to select a team category and team type, and displays a table of teams based on the selected category and type.
+ * The user can enter member details for each team in the table.
+ * The component also provides a save button to save the entered data.
+ *
+ * @returns {JSX.Element} The team selection component.
+ */
 function TeamSelection() {
   const navigate = useNavigate();
   const [teamCategory, setTeamCategory] = useState("Adult");

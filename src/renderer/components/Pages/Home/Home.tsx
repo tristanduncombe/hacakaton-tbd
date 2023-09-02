@@ -8,6 +8,10 @@ import ProjectCard from "../Project Card/ProjectCard";
 import AddIcon from "@mui/icons-material/Add";
 import { getFiles, getDocumentsPath, readFile } from "../../Common/common";
 
+/**
+ * Represents the home page of a project management application.
+ * Displays a list of projects and allows the user to add new projects.
+ */
 export default function Home() {
   const path = getDocumentsPath() + "/Polocrosse-Draw-Generator/Projects";
 
@@ -25,6 +29,9 @@ export default function Home() {
   const navigate = useNavigate();
   //gradeGen();
 
+  /**
+   * Navigates to the create project page when the "Add Project" button is clicked.
+   */
   const handleAddProjectClick = () => {
     navigate("/createproject");
   };
