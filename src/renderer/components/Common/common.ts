@@ -90,6 +90,12 @@ export function getDocumentsPath(): string {
 }
 
 export function deleteFile(path: string) {
+  /**
+   * Deletes a file from the file system.
+   *
+   * @param path - The path of the file to be deleted.
+   * @returns None. The function only logs error or success messages.
+   */
   fs.access(path, fs.constants.F_OK, (err) => {
     if (err) {
       console.error(`${path} does not exist`);
